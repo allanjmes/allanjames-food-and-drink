@@ -1,0 +1,11 @@
+*.zip
+.htaccess
+wp-config.php
+
+# Project dev files
+wp-content/themes/my-custom-theme/vendor/*
+wp-content/themes/my-custom-theme/node_modules/*
+wp-content/themes/my-custom-theme/vite.config.mjs
+
+# Production build
+wp-content/themes/my-custom-theme/dist/*
