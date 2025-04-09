@@ -1,0 +1,21 @@
+{
+  "name": "my-custom-theme",
+  "version": "1.0.0",
+  "description": "A custom WordPress theme with Vite integration",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chokidar-cli": "^3.0.0",
+    "vite": "^6.2.5",
+    "vite-plugin-full-reload": "^1.2.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.5",
+    "vanilla-tilt": "^1.8.1"
+  }
+}
