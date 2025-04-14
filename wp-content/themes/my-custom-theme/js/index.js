@@ -1,5 +1,5 @@
-// Import Bootstrap CSS
-import 'bootstrap/dist/css/bootstrap.min.css';
+// custom scss
+import '../style/main.scss';
 
 // Import Bootstrap JS (optional, if you need to use Bootstrap's JavaScript components)
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
