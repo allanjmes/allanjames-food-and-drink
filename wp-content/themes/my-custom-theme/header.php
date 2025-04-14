@@ -6,13 +6,7 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-    <header>
-        <nav>
-            <?php
-            wp_nav_menu(array(
-                'theme_location' => 'primary',
-                'container' => 'ul',
-            ));
-            ?>
-        </nav>
-    </header>
+
+<?php
+    require get_template_directory() . '/global/header.php';
+?>
