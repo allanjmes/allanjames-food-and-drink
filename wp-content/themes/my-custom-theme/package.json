@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.5",
+    "simple-parallax-js": "^6.1.1",
     "vanilla-tilt": "^1.8.1"
   }
 }
