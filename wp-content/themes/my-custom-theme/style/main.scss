@@ -38,6 +38,7 @@ $nav-link-hover-color: $accent;
 @import "bootstrap/scss/bootstrap";
 
 @import url('https://fonts.googleapis.com/css2?family=Metrophobic&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,900&display=swap');
 
 /* BODY */
 
@@ -162,6 +163,13 @@ body {
   font-family: "Metrophobic", sans-serif;
 }
 
+.font-playfair {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: italic;
+}
+
 /* TEXT TAGS */
   
 h1, h2, h3, h4, h5 {
@@ -184,4 +192,52 @@ a {
 
 li {
   list-style-type: none;
+}
+
+/* HERO */
+
+.custom-shape-divider-bottom-1744668445 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  // z-index: -1;
+}
+
+.custom-shape-divider-bottom-1744668445 svg {
+  position: relative;
+  display: block;
+  width: calc(300% + 1.3px);
+  height: 800px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1744668445 .shape-fill {
+  fill: #FF5A34;
+}
+
+.custom-shape-divider-top-1744668743 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: scaleX(-1);
+  // z-index: -2;
+}
+
+.custom-shape-divider-top-1744668743 svg {
+  position: relative;
+  display: block;
+  width: calc(212% + 1.3px);
+  height: 500px;
+  transform: rotateY(180deg);
+  // transform: scaleX(5);
+}
+
+.custom-shape-divider-top-1744668743 .shape-fill {
+  fill: #FFB128;
 }
