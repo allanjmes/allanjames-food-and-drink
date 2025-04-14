@@ -1,0 +1,187 @@
+// Bootstrap Override Colors
+$primary: #FF5A34;
+$secondary: #00a57d;
+$accent: #FFB128;
+$tertiary: #FCE7CA;
+
+// Bootstrap Extend Text Utility
+$utilities: (
+  "text": (
+    property: color,
+    class: text,
+    values: (
+      "accent": $accent,
+      "tertiary": $tertiary
+    )
+  ),
+  "bg": (
+    property: background-color,
+    class: bg,
+    values: (
+      "accent": $accent,
+      "tertiary": $tertiary
+    )
+  ),
+);
+
+// Bootstrap Override Navlink Colors
+$nav-link-color: $tertiary;
+$nav-link-active-color: $accent;
+$nav-link-hover-color: $accent;
+
+.nav-link.active,
+.nav-link.show {
+  color: $nav-link-active-color;
+}
+
+// Import Bootstrap (must come after variable overrides)
+@import "bootstrap/scss/bootstrap";
+
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* BODY */
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* COLORS */
+
+
+/* TYPOGRAPHY - FONTS */
+
+.fw-thin {
+  font-family: inherit;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.fw-extralight {
+  font-family: inherit;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.fw-light {
+  font-family: inherit;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.fw-medium {
+  font-family: inherit;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.fw-semibold {
+  font-family: inherit;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.fw-bold {
+  font-family: inherit;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.fw-extrabold {
+  font-family: inherit;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.fw-black {
+  font-family: inherit;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.fw-thin-italic {
+  font-family: inherit;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.fw-extralight-italic {
+  font-family: inherit;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.fw-light-italic {
+  font-family: inherit;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.fw-regular-italic {
+  font-family: inherit;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.fw-medium-italic {
+  font-family: inherit;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.fw-semibold-italic {
+  font-family: inherit;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.fw-bold-italic {
+  font-family: inherit;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.fw-extrabold-italic {
+  font-family: inherit;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.fw-black-italic {
+  font-family: inherit;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.font-metro {
+  font-family: "Metrophobic", sans-serif;
+}
+
+/* TEXT TAGS */
+  
+h1, h2, h3, h4, h5 {
+  font-family: "Metrophobic", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+p {
+  font-family: "Metrophobic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* LISTS */
+
+li {
+  list-style-type: none;
+}

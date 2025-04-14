@@ -1,6 +1,6 @@
-<footer>
-    <p>&copy; <?php echo date('Y'); ?> My Custom Theme. All rights reserved.</p>
-</footer>
+<?php
+    require get_template_directory() . '/global/footer.php';
+?>
 
 <?php wp_footer(); ?>
 </body>
