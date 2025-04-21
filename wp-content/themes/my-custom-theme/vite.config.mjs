@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite'
 import FullReload from 'vite-plugin-full-reload'
+import path from 'path'
 
 export default defineConfig({
   root: '.',

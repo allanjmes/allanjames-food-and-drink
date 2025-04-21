@@ -9,3 +9,7 @@ import '../style/style.css';
 // import '../style/style2.css';
 
 import './vanilla-tilt';
+
+import './simple-parallax';
+
+import './glide';

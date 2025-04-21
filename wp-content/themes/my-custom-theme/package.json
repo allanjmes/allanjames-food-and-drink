@@ -16,7 +16,9 @@
     "vite-plugin-full-reload": "^1.2.0"
   },
   "dependencies": {
+    "@glidejs/glide": "^3.7.1",
     "bootstrap": "^5.3.5",
+    "simple-parallax-js": "^6.1.1",
     "vanilla-tilt": "^1.8.1"
   }
 }

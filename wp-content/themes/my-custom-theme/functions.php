@@ -42,7 +42,7 @@ function my_custom_theme_scripts() {
             true
         );
 
-        // Optional: enqueue built CSS if available
+        // Enqueue built CSS
         $css_file = get_template_directory() . '/dist/bundle.css';
         if (file_exists($css_file)) {
             wp_enqueue_style(
@@ -55,7 +55,3 @@ function my_custom_theme_scripts() {
     }
 }
 add_action('wp_enqueue_scripts', 'my_custom_theme_scripts');
-
-function asdf() {
-
-}
