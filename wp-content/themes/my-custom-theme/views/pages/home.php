@@ -1,60 +1,639 @@
-<section class="bg-tertiary" style="position: relative;">
-    <div class="container py-5" style="height: 90vh;">
-
-        <div class="custom-shape-divider-top-1744668743" style="z-index: 2;">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
-            </svg>
-        </div>
-        
-        <div class="custom-shape-divider-bottom-1744668445" style="z-index: 3;">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
-            </svg>
-        </div>
-        
-        
-        <div class="h-100 d-flex flex-column justify-content-center align-items-center flex-md-row gap-5">
-            <div class="col-md-6 d-flex justify-content-center align-items-center" style="z-index: 4;">
-                <div class="col">
-                    <h1 class="display-1 font-playfair">
-                        <span
-                            class="text-primary"
-                            style="text-shadow: 5px 5px 3px #000;"
-                            >
-                                Fast
-                        </span>
-                        <span> </span> <!-- Add space -->
-                        <span
-                            class="text-accent"
-                            style="text-shadow: 5px 5px 3px #000;"
-                            >
-                                Food
-                        </span>
-                    </h1>
-                    <h1 class="font-playfair text-secondary">The Best Food</h1>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <button class="btn btn-primary text-white">
-                        More Info
-                    </button>
-                </div>
-            </div>
-            <div class="col-md-6 d-flex justify-content-center align-items-center" data-tilt style="z-index: 4;">
+<!-- HERO -->
+<section class="">
+    <div class="px-3">
+        <div class="d-flex flex-column flex-lg-row justify-content-center gap-3">
+            <div class="h-100" id="home-banner-img">
                 <img
-                src="<?php echo get_template_directory_uri(); ?>/assets/home/burger-icecream-donut.png"
-                class=""
-                style="min-height: 50px; max-height: 350px; width: auto;"
-                alt="">
+                    src="<?php echo get_template_directory_uri(); ?>/assets/home/home-banner-2.jpeg"
+                    width="100%"
+                    height="auto"
+                    alt=""
+                >
+            </div>
+            <div class="h-100 d-flex flex-column justify-content-center align-items-center gap-lg-5" id="home-banner-img">
+                <div class="h-100" style="position: absolute; top: 0; left: 0;">
+                    <div class="m-3 d-flex flex-column justify-content-around" style="height: 90%;">
+                        <div>
+                            asdf
+                        </div>
+                        <h1 class="d-none d-xl-block display-1 fw-extrabold text-custom-dark-blue" style="width: 95%;">FUEL UP YOUR DAY WITH OUR PLATTER!</h1>
+                        <h1 class="d-none d-md-block d-xl-none fw-extrabold w-75 text-custom-dark-blue">FUEL UP YOUR DAY WITH OUR PLATTER!</h1>
+                        <h5 class="d-md-none fw-bold w-75 text-custom-dark-blue">FUEL UP YOUR DAY WITH OUR PLATTER!</h5>
+                        <div>
+                            <button class="btn-accent text-secondary">
+                                Learn More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <img
+                    src="<?php echo get_template_directory_uri(); ?>/assets/home/blue-background-banner.webp"
+                    width="100%"
+                    height="auto"
+                    alt=""
+                >
             </div>
         </div>
     </div>
 </section>
-<section class="bg-secondary" style="height: 100vh">
 
+<section class="py-5" style="">
+    <div class="my-lg-5">
+        <div class="mx-5">
+            <div class="d-none d-lg-block">
+                <h1 class="display-1 fw-extrabold text-center">NURTURE THE BODY WITH</h1>
+                <h1 class="display-1 fw-extrabold text-center"><span class="text-accent">FARM-FRESH</span> VEGETABLES</h1>
+            </div>
+            <div class="d-lg-none" aria-hidden="true">
+                <h1 class="display-2 fw-extrabold text-center">NURTURE THE BODY WITH</h1>
+                <h1 class="display-2 fw-extrabold text-center"><span class="text-accent">FARM-FRESH</span></h1>
+                <h1 class="display-2 fw-extrabold text-center">VEGETABLES</h1>
+            </div>
+            <div class="d-flex justify-content-center align-items-center gap-5">
+                <div class="d-flex flex-column d-none d-xl-flex justify-content-center align-items-start gap-5">
+                    <div class="d-flex flex-column gap-3">
+                        <img
+                            src="<?php echo get_template_directory_uri(); ?>/assets/home/fire-svgrepo-com.svg"
+                            style="height: 50px; width: 50px"
+                            alt=""
+                        >
+                        <h1>
+                            High in Richness
+                        </h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque rem inventore officia, autem ratione ea accusantium. Doloribus quia praesentium nam.</p>
+                    </div>
+                    <div class="d-flex flex-column gap-3">
+                        <img
+                            src="<?php echo get_template_directory_uri(); ?>/assets/home/bowl-one-svgrepo-com.svg"
+                            style="height: 50px; width: 50px"
+                            alt=""
+                        >
+                        <h1>
+                            Healthy Flavors
+                        </h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque rem inventore officia, autem ratione ea accusantium. Doloribus quia praesentium nam.</p>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center align-items-center" id="home-farm-picking-img">
+                    <img
+                        src="<?php echo get_template_directory_uri(); ?>/assets/home/farm-picking-cropped.webp"
+                        alt=""
+                    >
+                </div>
+                <div class="d-flex flex-column d-none d-xl-flex justify-content-center align-items-start gap-5">
+                    <div class="d-flex flex-column gap-3">
+                        <img
+                            src="<?php echo get_template_directory_uri(); ?>/assets/home/coffee-cup-svgrepo-com.svg"
+                            style="height: 50px; width: 50px"
+                            alt=""
+                        >
+                        <h1>
+                            Love in Every Bite
+                        </h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque rem inventore officia, autem ratione ea accusantium. Doloribus quia praesentium nam.</p>
+                    </div>
+                    <div class="d-flex flex-column gap-3">
+                        <img
+                            src="<?php echo get_template_directory_uri(); ?>/assets/home/mortar-svgrepo-com.svg"
+                            style="height: 50px; width: 50px"
+                            alt=""
+                        >
+                        <h1>
+                            Un-refined Goodness
+                        </h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque rem inventore officia, autem ratione ea accusantium. Doloribus quia praesentium nam.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-5 d-flex flex-column flex-md-row d-xl-none justify-content-center align-items-center gap-5" aria-hidden="true">
+                <div class="d-flex flex-column justify-content-center align-items-start gap-5">
+                    <div class="d-flex flex-column gap-3">
+                        <img
+                            src="<?php echo get_template_directory_uri(); ?>/assets/home/fire-svgrepo-com.svg"
+                            style="height: 50px; width: 50px"
+                            alt=""
+                        >
+                        <h2>
+                            High in Richness
+                        </h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque rem inventore officia, autem ratione ea accusantium. Doloribus quia praesentium nam.</p>
+                    </div>
+                    <div class="d-flex flex-column gap-3">
+                        <img
+                            src="<?php echo get_template_directory_uri(); ?>/assets/home/bowl-one-svgrepo-com.svg"
+                            style="height: 50px; width: 50px"
+                            alt=""
+                        >
+                        <h2>
+                            Healthy Flavors
+                        </h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque rem inventore officia, autem ratione ea accusantium. Doloribus quia praesentium nam.</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-column justify-content-center align-items-start gap-5">
+                    <div class="d-flex flex-column gap-3">
+                        <img
+                            src="<?php echo get_template_directory_uri(); ?>/assets/home/coffee-cup-svgrepo-com.svg"
+                            style="height: 50px; width: 50px"
+                            alt=""
+                        >
+                        <h2>
+                            Love in Every Bite
+                        </h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque rem inventore officia, autem ratione ea accusantium. Doloribus quia praesentium nam.</p>
+                    </div>
+                    <div class="d-flex flex-column gap-3">
+                        <img
+                            src="<?php echo get_template_directory_uri(); ?>/assets/home/mortar-svgrepo-com.svg"
+                            style="height: 50px; width: 50px"
+                            alt=""
+                        >
+                        <h2>
+                            Un-refined Goodness
+                        </h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque rem inventore officia, autem ratione ea accusantium. Doloribus quia praesentium nam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
-<section class="bg-tertiary" style="height: 100vh">
 
+<section class="bg-primary p-5">
+    <div class="my-lg-5">
+        <div class="py-5">
+            <h1 class="display-1 fw-extrabold text-center text-secondary">Food Recipe</h1>
+        </div>
+        <div class="glide py-5" id="food-recipe-carousel">
+            <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                    <li class="glide__slide">
+                        <img
+                            src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
+                            height="150px"
+                            width="90%"
+                            alt=""
+                        >
+                        <h3 class="py-5 text-center text-secondary">Title</h3>
+                    </li>
+                    <li class="glide__slide">
+                        <img
+                            src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
+                            height="150px"
+                            width="90%"
+                            alt=""
+                        >
+                        <h3 class="py-5 text-center text-secondary">Title</h3>
+                    </li>
+                    <li class="glide__slide">
+                        <img
+                            src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
+                            height="150px"
+                            width="90%"
+                            alt=""
+                        >
+                        <h3 class="py-5 text-center text-secondary">Title</h3>
+                    </li>
+                    <li class="glide__slide">
+                        <img
+                            src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
+                            height="150px"
+                            width="90%"
+                            alt=""
+                        >
+                        <h3 class="py-5 text-center text-secondary">Title</h3>
+                    </li>
+                    <li class="glide__slide">
+                        <img
+                            src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
+                            height="150px"
+                            width="90%"
+                            alt=""
+                        >
+                        <h3 class="py-5 text-center text-secondary">Title</h3>
+                    </li>
+                    <li class="glide__slide">
+                        <img
+                            src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
+                            height="150px"
+                            width="90%"
+                            alt=""
+                        >
+                        <h3 class="py-5 text-center text-secondary">Title</h3>
+                    </li>
+                    <li class="glide__slide">
+                        <img
+                            src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
+                            height="150px"
+                            width="90%"
+                            alt=""
+                        >
+                        <h3 class="py-5 text-center text-secondary">Title</h3>
+                    </li>
+                    <li class="glide__slide">
+                        <img
+                            src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
+                            height="150px"
+                            width="90%"
+                            alt=""
+                        >
+                        <h3 class="py-5 text-center text-secondary">Title</h3>
+                    </li>
+                    <li class="glide__slide">
+                        <img
+                            src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
+                            height="150px"
+                            width="90%"
+                            alt=""
+                        >
+                        <h3 class="py-5 text-center text-secondary">Title</h3>
+                    </li>
+                    <li class="glide__slide">
+                        <img
+                            src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
+                            height="150px"
+                            width="90%"
+                            alt=""
+                        >
+                        <h3 class="py-5 text-center text-secondary">Title</h3>
+                    </li>
+                    <li class="glide__slide">
+                        <img
+                            src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
+                            height="150px"
+                            width="90%"
+                            alt=""
+                        >
+                        <h3 class="py-5 text-center text-secondary">Title</h3>
+                    </li>
+                    <li class="glide__slide">
+                        <img
+                            src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
+                            height="150px"
+                            width="90%"
+                            alt=""
+                        >
+                        <h3 class="py-5 text-center text-secondary">Title</h3>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </section>
-<section class="bg-primary" style="height: 100vh">
 
+<section class="bg-custom-blue py-3">
+    <div class="infinite-sticker text-custom-dark-blue">
+        <ul>
+            <li>
+                <span></span>
+                <h1>TASTE GOOD</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>NATURE FRESH</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>HEALTHY SNACKS</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>RICH ANTIOXIDENT</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>NO PRESERVATIVES</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>HEALTHY FOOD</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>NO ADDITIVES</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>PURELY NATURAL</h1>
+            </li>
+        </ul>
+        <ul aria-hidden="true">
+            <li>
+                <span></span>
+                <h1>TASTE GOOD</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>NATURE FRESH</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>HEALTHY SNACKS</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>RICH ANTIOXIDENT</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>NO PRESERVATIVES</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>HEALTHY FOOD</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>NO ADDITIVES</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>PURELY NATURAL</h1>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section class="my-5 py-lg-5">
+    <div class="container h-100">
+        <div class="row h-100 align-items-center">
+            <div class="col-12 col-md-6 col-lg-8 mb-4 mb-md-0">
+                <h1 class="display-3 fw-bold text-center text-md-start">FRESH SUPPLIES <span class="text-custom-green">ASSURE</span> SUPERIOR MEALS</h1>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <p class="text-center text-md-start"><strong>Offers essential nutrients</strong> from 30 major ingredients, including avocado, sesame, capcicum, vegetables, and fruits.</p>
+            </div>
+        </div>
+    </div>
+    <div class="glide my-5 pt-5" id="food-recipe-carousel-2">
+        <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+                <li class="glide__slide">
+                    <img
+                        src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
+                        height="150px"
+                        width="90%"
+                        alt=""
+                    >
+                    <h3 class="py-5 text-center">Title</h3>
+                </li>
+                <li class="glide__slide">
+                    <img
+                        src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
+                        height="150px"
+                        width="90%"
+                        alt=""
+                    >
+                    <h3 class="py-5 text-center">Title</h3>
+                </li>
+                <li class="glide__slide">
+                    <img
+                        src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
+                        height="150px"
+                        width="90%"
+                        alt=""
+                    >
+                    <h3 class="py-5 text-center">Title</h3>
+                </li>
+                <li class="glide__slide">
+                    <img
+                        src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
+                        height="150px"
+                        width="90%"
+                        alt=""
+                    >
+                    <h3 class="py-5 text-center">Title</h3>
+                </li>
+                <li class="glide__slide">
+                    <img
+                        src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
+                        height="150px"
+                        width="90%"
+                        alt=""
+                    >
+                    <h3 class="py-5 text-center">Title</h3>
+                </li>
+                <li class="glide__slide">
+                    <img
+                        src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
+                        height="150px"
+                        width="90%"
+                        alt=""
+                    >
+                    <h3 class="py-5 text-center">Title</h3>
+                </li>
+                <li class="glide__slide">
+                    <img
+                        src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
+                        height="150px"
+                        width="90%"
+                        alt=""
+                    >
+                    <h3 class="py-5 text-center">Title</h3>
+                </li>
+                <li class="glide__slide">
+                    <img
+                        src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
+                        height="150px"
+                        width="90%"
+                        alt=""
+                    >
+                    <h3 class="py-5 text-center">Title</h3>
+                </li>
+                <li class="glide__slide">
+                    <img
+                        src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
+                        height="150px"
+                        width="90%"
+                        alt=""
+                    >
+                    <h3 class="py-5 text-center">Title</h3>
+                </li>
+                <li class="glide__slide">
+                    <img
+                        src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
+                        height="150px"
+                        width="90%"
+                        alt=""
+                    >
+                    <h3 class="py-5 text-center">Title</h3>
+                </li>
+                <li class="glide__slide">
+                    <img
+                        src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
+                        height="150px"
+                        width="90%"
+                        alt=""
+                    >
+                    <h3 class="py-5 text-center">Title</h3>
+                </li>
+                <li class="glide__slide">
+                    <img
+                        src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
+                        height="150px"
+                        width="90%"
+                        alt=""
+                    >
+                    <h3 class="py-5 text-center">Title</h3>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/home/green-background-banner.webp'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 600px;">
+    <div class="d-flex flex-column justify-content-center align-items-center h-100 gap-5">
+        <h1 class="d-none display-lg-block display-2 fw-bold text-custom-green text-center w-75">
+            Prebiotic protein platter support digestion, and energy with fiber-rich foods
+        </h1>
+        <h1 class="display-lg-none display-3 fw-bold text-custom-green text-center w-75" aria-hidden="true">
+            Prebiotic protein platter support digestion, and energy with fiber-rich foods
+        </h1>
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-3 gap-md-5">
+            <button class="btn-custom-yellow" style="width: 250px">
+                <h1 class="fw-bold">
+                    Explore
+                </h1>
+            </button>
+            <button class="btn-accent text-secondary" style="width: 250px">
+                <h1 class="fw-bold">
+                    Order now
+                </h1>
+            </button>
+        </div>
+    </div>
+</section>
+
+<section class="bg-custom-green py-3">
+    <div class="infinite-sticker text-custom-dark-green">
+        <ul>
+            <li>
+                <span></span>
+                <h1>TASTE GOOD</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>NATURE FRESH</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>HEALTHY SNACKS</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>RICH ANTIOXIDENT</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>NO PRESERVATIVES</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>HEALTHY FOOD</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>NO ADDITIVES</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>PURELY NATURAL</h1>
+            </li>
+        </ul>
+        <ul aria-hidden="true">
+            <li>
+                <span></span>
+                <h1>TASTE GOOD</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>NATURE FRESH</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>HEALTHY SNACKS</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>RICH ANTIOXIDENT</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>NO PRESERVATIVES</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>HEALTHY FOOD</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>NO ADDITIVES</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>PURELY NATURAL</h1>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section class="py-5 my-lg-5" style="">
+    <div class="d-flex flex-column justify-content-center align-items-center">
+        <div>
+            <h1 class="display-3 fw-bold text-center">OUR CUSTOMER <span class="text-accent">LOVES US</span></h1>
+        </div>
+        <div class="d-flex justify-content-center align-items-center">
+            <div class="py-5 row justify-content-center gap-3 gap-lg-5">
+                <div class="card col-12 col-md-6 col-lg-4 bg-custom-blue" id="card-custom">
+                    <div class="card-body p-3 p-md-5 text-center">
+                        <h3 class="fw-extrabold">
+                            " I NEVER KNEW I COULD EAT HEALTHY MEALS UNTIL I FOUND THIS. IT'S BEEN AN ENLIGHTENING JOURNEY "
+                        </h3>
+                        <hr>
+                        <h4 class="fw-bold">- POLINA MORROW</h4>
+                    </div>
+                </div>
+                <div class="card col-12 col-md-6 col-lg-4 bg-custom-pink" id="card-custom">
+                    <div class="card-body p-3 p-md-5 text-center">
+                        <h3 class="fw-extrabold">
+                            " I NEVER KNEW I COULD EAT HEALTHY MEALS UNTIL I FOUND THIS. IT'S BEEN AN ENLIGHTENING JOURNEY "
+                        </h3>
+                        <hr>
+                        <h4 class="fw-bold">- POLINA MORROW</h4>
+                    </div>
+                </div>
+                <div class="card col-12 col-md-6 col-lg-4 bg-custom-green" id="card-custom">
+                    <div class="card-body p-3 p-md-5 text-center">
+                        <h3 class="fw-extrabold">
+                            " I NEVER KNEW I COULD EAT HEALTHY MEALS UNTIL I FOUND THIS. IT'S BEEN AN ENLIGHTENING JOURNEY "
+                        </h3>
+                        <hr>
+                        <h4 class="fw-bold">- POLINA MORROW</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-custom-yellow py-5" style="">
+    <div class="my-lg-5 d-flex flex-column justify-content-center align-items-center h-100 gap-5">
+        <h1 class="display-2 fw-bold text-center w-75">
+            Meet the high nutrition plates.
+        </h1>
+        <p style="width: 30%" class="d-none d-lg-block text-center fw-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis esse maxime laboriosam eveniet pariatur obcaecati?</p>
+        <p style="width: 75%" class="d-lg-none text-center fw-bold" aria-hidden="true">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis esse maxime laboriosam eveniet pariatur obcaecati?</p>
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-3 gap-md-5">
+            <button class="btn-accent text-secondary" style="width: 250px">
+                <h1 class="fw-bold">
+                    Explore
+                </h1>
+            </button>
+            <button class="btn-secondary" style="width: 250px">
+                <h1 class="fw-bold">
+                    Order now
+                </h1>
+            </button>
+        </div>
+    </div>
 </section>

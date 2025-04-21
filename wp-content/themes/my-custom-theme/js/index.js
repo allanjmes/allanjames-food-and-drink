@@ -11,3 +11,5 @@ import '../style/style.css';
 import './vanilla-tilt';
 
 import './simple-parallax';
+
+import './glide';

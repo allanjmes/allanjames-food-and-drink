@@ -1,35 +1,48 @@
-<header class="bg-secondary">
-    <div class="d-flex justify-content-between p-3">
-        <img
-            src="<?php echo get_template_directory_uri(); ?>/assets/nav/food-and-drink-logo.png"
-            style="max-height: 80px; height: auto; width: auto;"
-            alt="Site Logo"
-            class="ml-3">
-        <nav class="d-flex justify-content-center align-items-center gap-3">
-            <ul class="nav">
-                <?php
-                $args = [
-                    'post_type' => 'page',
-                    'post_status' => 'publish'
-                ];
-
-                $query = new WP_Query($args);
-                $current_id = get_queried_object_id(); // Get the current page ID
-
-                while ($query->have_posts()) {
-                    $query->the_post();
-                    $slug = get_post_field('post_name', get_post());
-                    $active_class = (get_the_ID() === $current_id) ? 'active' : '';
-
-                        echo '<li class="nav-item">';
-                        echo '<a class="nav-link ' . $active_class . '" href="' . esc_url( home_url() ) . "/" . $slug . '">';
-                        echo esc_html(get_the_title());
-                        echo '</a></li>';
-                }
-
-                wp_reset_postdata();
-                ?>
-            </ul>
+<header class="bg-custom-yellow m-3" style="border: 2px; border-radius: 10px;">
+    <!-- LARGE DEVICE NAV -->
+    <div class="mx-5 d-none d-lg-flex justify-content-between align-items-center">
+        <nav class="d-flex gap-5">
+            <a href="<?php echo site_url(); ?>">Home</a>
+            <a href="<?php echo site_url(); ?>">About</a>
+            <a href="<?php echo site_url() . '/recipe'; ?>">Recipe</a>
         </nav>
+        <div class="d-flex align-items-center">
+            <a href="<?php echo site_url(); ?>">
+                <h1 class="display-3 fw-bold">Logo</h1>
+            </a>
+        </div>
+        <nav class="d-flex gap-5 align-items-center">
+            <a href="<?php echo site_url(); ?>">Home</a>
+            <a href="<?php echo site_url(); ?>">About</a>
+            <a href="<?php echo site_url() . '/recipe'; ?>">Recipe</a>
+            <a type="button" class="btn-outline-primary" href="<?php echo site_url() . '/recipe'; ?>">Learn More</a>
+        </nav>
+    </div>
+    <!-- MOBILE NAV -->
+    <div class="d-lg-none d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-start">
+            <a href="<?php echo site_url(); ?>">
+                <h1 class="display-3 fw-bold">Logo</h1>
+            </a>
+        </div>
+        <button 
+            class="btn d-block d-sm-block d-md-block d-lg-none d-xs-block rounded-pill" 
+            style="background-color: #fbd6d4;" 
+            type="button" 
+            data-bs-toggle="offcanvas" 
+            data-bs-target="#staticBackdrop" 
+            aria-controls="staticBackdrop"
+        >
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#b80e09" class="bi bi-three-dots" viewBox="0 0 16 16">
+                <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+            </svg>
+        </button>
+    </div>
+    <!-- MOBILE SIDEBAR CONTENT -->
+    <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+        <button type="button" class="btn-close me-3 btn-close-red" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <a href="<?php echo site_url(); ?>">Home</a>
+        <a href="<?php echo site_url(); ?>">About</a>
+        <a href="<?php echo site_url() . '/recipe'; ?>">Recipe</a>
     </div>
 </header>
