@@ -1,0 +1,15 @@
+// IMAGE
+#hover-img {
+    &:hover {
+      transform: scale(1.1);
+      transition: transform 0.5s ease-in-out;
+    }
+}
+
+// TEXT COLOR
+.hover-accent {
+    &:hover,
+    &:focus {
+        color: $accent !important;
+    }
+}

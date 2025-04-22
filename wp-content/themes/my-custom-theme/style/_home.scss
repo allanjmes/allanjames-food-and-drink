@@ -1,0 +1,42 @@
+/* HERO */
+
+#home-banner-img {
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+#home-farm-picking-img img {
+    height: 60%;
+    width: 60%;
+}
+
+#card-custom {
+    width: 290px;
+    height: auto;
+    border-radius: 20px;
+}
+
+@media only screen and (min-width: 992px) {
+    #home-banner-img {
+        width: 50%;
+    }
+
+    #home-farm-picking-img img {
+        width: 80%;
+        height: 80%;
+        margin-top: -50px;
+    }
+
+    #card-custom {
+        width: 335px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #home-farm-picking-img img {
+        width: 120%;
+        height: 160%;
+        margin-top: -50px;
+    }
+}

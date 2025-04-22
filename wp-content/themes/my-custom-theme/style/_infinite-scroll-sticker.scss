@@ -1,0 +1,30 @@
+// SLIDER
+.infinite-sticker {
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    --gap: 20px;
+    gap: var(--gap);
+}
+  
+.infinite-sticker ul {
+    list-style: none;
+    display: flex;
+    flex-shrink: 0;
+    min-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--gap);
+
+    animation: scroll 20s linear infinite;
+}
+  
+.infinite-sticker:hover {
+    animation-play-state: paused;
+}
+  
+@keyframes scroll {
+    to {
+      transform: translateX(calc(-100% - var(--gap)));
+    }
+}

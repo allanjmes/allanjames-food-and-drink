@@ -1,0 +1,170 @@
+// DEFINE COLORS MAP FOR BOOTSTRAP UTILITY GENERATION
+// USE COLORS IN THEME COLORS
+$btn-colors: (
+  "accent": $accent,
+  "custom-yellow": $custom-yellow,
+  "custom-green": $custom-green,
+  "custom-dark-green": $custom-dark-green,
+  "custom-blue": $custom-blue,
+  "custom-dark-blue": $custom-dark-blue,
+  "custom-pink": $custom-pink
+);
+
+// EXTEND BOOTSTRAP "TEXT" AND "BG" UTILITY passing the $btn-colors
+// This will create a custom "text-[color]" class, ex: "text-accent" etc.
+$utilities: (
+  "text": (
+    property: color,
+    class: text,
+    values: $btn-colors
+  ),
+  "bg": (
+    property: background-color,
+    class: bg,
+    values: $btn-colors
+  ),
+);
+
+// LOOP $btn-colors map
+// CREATE BUTTON UTILITY CLASS "btn-[color]"
+// This will create a custom "btn-[color]" class, ex: "btn-accent" etc.
+@each $name, $color in $btn-colors {
+  .btn-#{$name} {
+    background-color: $color;
+    color: $primary;
+    border: 2px solid $color;
+    border-radius: 5px;
+    padding: 6px 12px;
+    font-size: inherit;
+    font-weight: inherit;
+
+    &:hover,
+    &:focus {
+      background-color: darken($color, 10%);
+      border: 2px solid darken($color, 10%);
+      color: $primary;
+    }
+
+    &:disabled {
+      opacity: 0.65;
+      cursor: not-allowed;
+    }
+  }
+}
+
+// OVERRIDE BUTTON PRIMARY CLASS
+.btn-primary {
+  background-color: $primary;
+  color: $secondary;
+  border: 2px solid $primary;
+  border-radius: 5px;
+  padding: 6px 12px;
+  font-size: inherit;
+  font-weight: inherit;
+
+  &:hover,
+  &:focus {
+    background-color: darken($primary, 10%);
+    border: 2px solid darken($primary, 10%);
+  }
+
+  &:disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+  }
+}
+
+// OVERRIDE BUTTON SECONDARY CLASS
+.btn-secondary {
+  background-color: $secondary;
+  color: $primary;
+  border: 2px solid $secondary;
+  border-radius: 5px;
+  padding: 6px 12px;
+  font-size: inherit;
+  font-weight: inherit;
+
+  &:hover,
+  &:focus {
+    background-color: darken($secondary, 10%);
+    border: 2px solid darken($secondary, 10%);
+  }
+
+  &:disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+  }
+}
+
+// LOOP $btn-colors map
+// CREATE BUTTON UTILITY CLASS "btn-outline-[color]"
+// This will create a custom "btn-outline-[color]" class, ex: "btn-outline-accent" etc.
+@each $name, $color in $btn-colors {
+  .btn-outline-#{$name} {
+    background-color: transparent;
+    color: $color;
+    border: 1px solid $color;
+    border-radius: 5px;
+    padding: 6px 12px;
+    font-size: inherit;
+    font-weight: inherit;
+
+    &:hover,
+    &:focus {
+      background-color: darken($color, 10%);
+      border: 1px solid darken($color, 10%);
+      color: $primary;
+    }
+
+    &:disabled {
+      opacity: 0.65;
+      cursor: not-allowed;
+    }
+  }
+}
+
+// OVERRIDE BUTTON OUTLINE PRIMARY CLASS
+.btn-outline-primary {
+  background-color: transparent;
+  color: $primary;
+  border: 1px solid $primary;
+  border-radius: 5px;
+  padding: 6px 12px;
+  font-size: inherit;
+  font-weight: inherit;
+
+  &:hover,
+  &:focus {
+    background-color: darken($primary, 10%);
+    border: 1px solid darken($primary, 10%);
+    color: $secondary;
+  }
+
+  &:disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+  }
+}
+
+// OVERRIDE BUTTON OUTLINE SECONDARY CLASS
+.btn-outline-secondary {
+  background-color: transparent;
+  color: $secondary;
+  border: 1px solid $secondary;
+  border-radius: 5px;
+  padding: 6px 12px;
+  font-size: inherit;
+  font-weight: inherit;
+
+  &:hover,
+  &:focus {
+    background-color: darken($secondary, 10%);
+    border: 1px solid darken($secondary, 10%);
+    color: $primary;
+  }
+
+  &:disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+  }
+}
