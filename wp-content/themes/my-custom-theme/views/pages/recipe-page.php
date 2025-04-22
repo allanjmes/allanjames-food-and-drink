@@ -1,7 +1,7 @@
 <section class="bg-tertiary py-5">
     <div class="my-lg-5">
         <div class="container text-center mb-5">
-            <h1 class="">Recipes</h1>
+            <h1 class="fw-bold">Recipes</h1>
             <p class="mt-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse aspernatur iste, minus eaque nam odio incidunt quibusdam provident cupiditate, possimus ex optio. Explicabo, adipisci aperiam nobis, voluptate reiciendis fuga illo pariatur dolorum quae eligendi aliquam, enim sit. Sit quos error suscipit vel consequuntur magnam. Neque, autem soluta iste nostrum amet ea assumenda in! Ad sequi voluptates iste totam eos facilis illum, accusantium nulla, consequuntur doloribus eum, eius fugiat fugit ipsam repellat? Sapiente est nisi eligendi ad id voluptates saepe soluta pariatur. Temporibus architecto, quia, vero qui ex ad nesciunt, praesentium accusantium ducimus facere earum magnam odit corporis maxime nobis molestias?</p>
         </div>
     
@@ -23,14 +23,14 @@
                         $image_id = get_post_meta(get_the_ID(), 'featured_image', true);
                         $image = wp_get_attachment_image_url($image_id, 'full');
                         ?>
-                            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                            <div class="col-12 col-md-6 col-lg-3 mb-4" id="hover-img">
                                 <a href="<?php the_permalink(); ?>" >
                                     <div class="card h-100">
                                         <div class="h-100" style="display: block; overflow: hidden;">
                                             <img
                                                 src="<?php echo $image; ?>"
                                                 class="card-img-top"
-                                                id="hover-img"
+                                                
                                                 width="auto"
                                                 height="250px"
                                                 style="overflow: hidden;"
