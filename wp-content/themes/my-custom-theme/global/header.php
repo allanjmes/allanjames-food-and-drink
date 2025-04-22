@@ -3,8 +3,8 @@
     <div class="mx-5 d-none d-lg-flex">
         <nav class="col-4 d-flex justify-content-start align-items-center gap-5">
             <a href="<?php echo site_url(); ?>">Home</a>
-            <a href="<?php echo site_url() . '/development'; ?>">Development</a>
-            <a href="<?php echo site_url() . '/web-design'; ?>">Web Design</a>
+            <a href="<?php echo site_url() . '/recipe'; ?>">Recipe</a>
+            <a href="<?php echo site_url(); ?>">Category</a>
         </nav>
         <div class="col-4 d-flex justify-content-center align-items-center mb-2">
             <a href="<?php echo site_url(); ?>">
@@ -12,10 +12,10 @@
             </a>
         </div>
         <nav class="col-4 d-flex justify-content-end align-items-center gap-5">
-            <a href="<?php echo site_url() . '/recipe'; ?>">Recipe</a>
-            <a href="<?php echo site_url(); ?>">Category</a>
             <a href="<?php echo site_url(); ?>">About</a>
-            <a type="button" class="btn-outline-primary" href="<?php echo site_url() . '/recipe'; ?>">Learn More</a>
+            <a href="<?php echo site_url() . '/web-design'; ?>">Web Design</a>
+            <a href="<?php echo site_url() . '/development'; ?>">Development</a>
+            <a type="button" class="btn-outline-primary" target="_blank" href="https://github.com/allanjmes/food-and-drink">View Code</a>
         </nav>
     </div>
     <!-- MOBILE NAV -->
