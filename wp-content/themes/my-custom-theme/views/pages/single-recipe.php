@@ -45,7 +45,7 @@
         text-align: center;
         text-shadow: 5px 5px 3px #000;
         "
-        class="display-1 text-primary fw-extrabold"
+        class="display-1 text-accent fw-extrabold"
     >
         <?php echo get_the_title(); ?>
     </h1>
@@ -88,19 +88,19 @@
     </div>
 </section>
 
-<section class="bg-tertiary py-5">
+<section class="bg-secondary py-5">
     <div class="container">
-        <h1 class="font-playfair display-4 text-secondary">Ingredients:</h1>
+        <h1 class="font-playfair display-4 text-primary">Ingredients:</h1>
         <br>
-        <span class="text-secondary"><?php echo $ingredients; ?></span>
+        <span class="text-primary"><?php echo $ingredients; ?></span>
     </div>
 </section>
 
 <section class="bg-primary py-5">
     <div class="container">
-        <h1 class="font-playfair display-4 text-tertiary">How to make:</h1>
+        <h1 class="font-playfair display-4 text-secondary">How to make:</h1>
         <br>
-        <span class=""><?php echo $how_to_make; ?></span>
+        <span class="text-secondary"><?php echo $how_to_make; ?></span>
     </div>
 </section>
 
@@ -109,11 +109,241 @@
         ?>
         <section class="bg-primary py-5">
             <div class="container">
-                <h1 class="font-playfair display-4 text-tertiary">Serving:</h1>
+                <h1 class="font-playfair display-4 text-secondary">Serving:</h1>
                 <br>
-                <p class="ps-5"><?php echo $serving; ?></p>
+                <p class="text-secondary"><?php echo $serving; ?></p>
             </div>
         </section>
         <?php
     }
 ?>
+
+<section class="bg-custom-blue py-3">
+    <div class="infinite-sticker text-custom-dark-blue">
+        <ul>
+            <li>
+                <span></span>
+                <h1>TASTE GOOD</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>NATURE FRESH</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>HEALTHY SNACKS</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>RICH ANTIOXIDENT</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>NO PRESERVATIVES</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>HEALTHY FOOD</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>NO ADDITIVES</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>PURELY NATURAL</h1>
+            </li>
+        </ul>
+        <ul aria-hidden="true">
+            <li>
+                <span></span>
+                <h1>TASTE GOOD</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>NATURE FRESH</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>HEALTHY SNACKS</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>RICH ANTIOXIDENT</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>NO PRESERVATIVES</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>HEALTHY FOOD</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>NO ADDITIVES</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>PURELY NATURAL</h1>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section class="" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/home/green-background-banner.webp'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 600px;">
+    <div class="d-flex flex-column justify-content-center align-items-center h-100 gap-5">
+        <h1 class="d-none display-lg-block display-2 fw-bold text-custom-green text-center w-75">
+            Prebiotic protein platter support digestion, and energy with fiber-rich foods
+        </h1>
+        <h1 class="display-lg-none display-3 fw-bold text-custom-green text-center w-75" aria-hidden="true">
+            Prebiotic protein platter support digestion, and energy with fiber-rich foods
+        </h1>
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-3 gap-md-5">
+            <button class="btn-custom-yellow" style="width: 250px">
+                <h1 class="fw-bold">
+                    Explore
+                </h1>
+            </button>
+            <button class="btn-accent text-secondary" style="width: 250px">
+                <h1 class="fw-bold">
+                    Order now
+                </h1>
+            </button>
+        </div>
+    </div>
+</section>
+
+<section class="bg-custom-green py-3">
+    <div class="infinite-sticker text-custom-dark-green">
+        <ul>
+            <li>
+                <span></span>
+                <h1>TASTE GOOD</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>NATURE FRESH</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>HEALTHY SNACKS</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>RICH ANTIOXIDENT</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>NO PRESERVATIVES</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>HEALTHY FOOD</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>NO ADDITIVES</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>PURELY NATURAL</h1>
+            </li>
+        </ul>
+        <ul aria-hidden="true">
+            <li>
+                <span></span>
+                <h1>TASTE GOOD</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>NATURE FRESH</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>HEALTHY SNACKS</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>RICH ANTIOXIDENT</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>NO PRESERVATIVES</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>HEALTHY FOOD</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>NO ADDITIVES</h1>
+            </li>
+            <li>
+                <span></span>
+                <h1>PURELY NATURAL</h1>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section class="py-5 my-lg-5" style="">
+    <div class="d-flex flex-column justify-content-center align-items-center">
+        <div>
+            <h1 class="display-3 fw-bold text-center">OUR CUSTOMER <span class="text-accent">LOVES US</span></h1>
+        </div>
+        <div class="d-flex justify-content-center align-items-center">
+            <div class="py-5 row justify-content-center gap-3 gap-lg-5">
+                <div class="card col-12 col-md-6 col-lg-4 bg-custom-blue" id="card-custom">
+                    <div class="card-body p-3 p-md-5 text-center">
+                        <h3 class="fw-extrabold">
+                            " I NEVER KNEW I COULD EAT HEALTHY MEALS UNTIL I FOUND THIS. IT'S BEEN AN ENLIGHTENING JOURNEY "
+                        </h3>
+                        <hr>
+                        <h4 class="fw-bold">- POLINA MORROW</h4>
+                    </div>
+                </div>
+                <div class="card col-12 col-md-6 col-lg-4 bg-custom-pink" id="card-custom">
+                    <div class="card-body p-3 p-md-5 text-center">
+                        <h3 class="fw-extrabold">
+                            " I NEVER KNEW I COULD EAT HEALTHY MEALS UNTIL I FOUND THIS. IT'S BEEN AN ENLIGHTENING JOURNEY "
+                        </h3>
+                        <hr>
+                        <h4 class="fw-bold">- POLINA MORROW</h4>
+                    </div>
+                </div>
+                <div class="card col-12 col-md-6 col-lg-4 bg-custom-green" id="card-custom">
+                    <div class="card-body p-3 p-md-5 text-center">
+                        <h3 class="fw-extrabold">
+                            " I NEVER KNEW I COULD EAT HEALTHY MEALS UNTIL I FOUND THIS. IT'S BEEN AN ENLIGHTENING JOURNEY "
+                        </h3>
+                        <hr>
+                        <h4 class="fw-bold">- POLINA MORROW</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-custom-yellow py-5" style="">
+    <div class="my-lg-5 d-flex flex-column justify-content-center align-items-center h-100 gap-5">
+        <h1 class="display-2 fw-bold text-center w-75">
+            Meet the high nutrition plates.
+        </h1>
+        <p style="width: 30%" class="d-none d-lg-block text-center fw-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis esse maxime laboriosam eveniet pariatur obcaecati?</p>
+        <p style="width: 75%" class="d-lg-none text-center fw-bold" aria-hidden="true">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis esse maxime laboriosam eveniet pariatur obcaecati?</p>
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-3 gap-md-5">
+            <button class="btn-accent text-secondary" style="width: 250px">
+                <h1 class="fw-bold">
+                    Explore
+                </h1>
+            </button>
+            <button class="btn-secondary" style="width: 250px">
+                <h1 class="fw-bold">
+                    Order now
+                </h1>
+            </button>
+        </div>
+    </div>
+</section>
