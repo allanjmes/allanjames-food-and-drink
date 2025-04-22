@@ -3,7 +3,7 @@
 <!-- LOAD FILES DEPENDING ON ARCHIVE TYPE -->
 <?php
     if (is_post_type_archive('recipe')) :
-        require_once get_template_directory() . '/views/pages/recipe.php';
+        require_once get_template_directory() . '/views/pages/recipe-page.php';
     endif;
 ?>
 
