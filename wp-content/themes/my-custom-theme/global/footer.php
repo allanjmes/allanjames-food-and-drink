@@ -160,6 +160,7 @@
             </div>
             <div>
                 <li>View code here: <a class="text-accent" target="_blank" href="https://github.com/allanjmes/food-and-drink">github.com/allanjmes/food-and-drink</a></li>
+                <li>Contact me: <a class="text-accent" target="_blank" href="mailto:allanjames.regala@gmail.com">allanjames.regala@gmail.com</a></li>
             </div>
         </div>
     </div>

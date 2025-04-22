@@ -17,7 +17,8 @@
         require locate_template( 'views/pages/development-page.php' );
     elseif ( is_page( 'web-design' ) ) :
         require locate_template( 'views/pages/web-design-page.php' );
-            
+    elseif ( is_page( 'contact-me' ) ) :
+        require locate_template( 'views/pages/contact-me-page.php' );
     endif;
 ?>
 
