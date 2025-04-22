@@ -15,6 +15,17 @@
                     alt=""
                 >
             </div>
+            <br>
+            <p>Enqueue minified JS and CSS</p>
+            <div>
+                <img
+                    src="<?php echo get_template_directory_uri(); ?>/assets/development/vite-integration-2.png"
+                    height="auto"
+                    width="100%"
+                    style="max-width: 500px;"
+                    alt=""
+                >
+            </div>
         </div>
         <div class="d-flex flex-column justify-content-center align-items-center">
             <h2 class="fw-bold">Custom Theme Colors</h2>
@@ -60,6 +71,71 @@
                 >
                 <img
                     src="<?php echo get_template_directory_uri(); ?>/assets/development/bootstrap-overrides-3.png"
+                    height="auto"
+                    width="100%"
+                    style="max-width: 500px;"
+                    alt=""
+                >
+            </div>
+        </div>
+        <div class="d-flex flex-column justify-content-center align-items-center">
+            <h2 class="fw-bold">Add/Import Javascript Modules</h2>
+            <p>Simply integrating javascript libraries</p>
+            <div class="d-flex flex-column gap-3">
+                <img
+                    src="<?php echo get_template_directory_uri(); ?>/assets/development/add-javascript-modules-1.png"
+                    height="auto"
+                    width="100%"
+                    style="max-width: 500px;"
+                    alt=""
+                >
+                <img
+                    src="<?php echo get_template_directory_uri(); ?>/assets/development/add-javascript-modules-2.png"
+                    height="auto"
+                    width="100%"
+                    style="max-width: 500px;"
+                    alt=""
+                >
+            </div>
+        </div>
+        <div class="d-flex flex-column justify-content-center align-items-center">
+            <h2 class="fw-bold">Utilized PODS Admin Plugin</h2>
+            <p>For managing contents</p>
+            <div class="d-flex flex-column gap-3">
+                <img
+                    src="<?php echo get_template_directory_uri(); ?>/assets/development/pods-admin-plugin-1.png"
+                    height="auto"
+                    width="100%"
+                    style="max-width: 500px;"
+                    alt=""
+                >
+                <img
+                    src="<?php echo get_template_directory_uri(); ?>/assets/development/pods-admin-plugin-2.png"
+                    height="auto"
+                    width="100%"
+                    style="max-width: 500px;"
+                    alt=""
+                >
+                <img
+                    src="<?php echo get_template_directory_uri(); ?>/assets/development/pods-admin-plugin-3.png"
+                    height="auto"
+                    width="100%"
+                    style="max-width: 500px;"
+                    alt=""
+                >
+                <img
+                    src="<?php echo get_template_directory_uri(); ?>/assets/development/pods-admin-plugin-4.png"
+                    height="auto"
+                    width="100%"
+                    style="max-width: 500px;"
+                    alt=""
+                >
+            </div>
+            <br>
+            <p>Content</p>
+            <div>
+                <img
+                    src="<?php echo get_template_directory_uri(); ?>/assets/development/pods-admin-plugin-5.png"
                     height="auto"
                     width="100%"
                     style="max-width: 500px;"
