@@ -23,7 +23,7 @@
                 <p>We provide the best food for you.</p>
             </div>
             <div class="d-none d-lg-flex flex-column">
-                <h5>More Info</h5>
+                <h5 class="fw-bold">More Info</h5>
                 <a class="text-secondary hover-accent" href="<?php echo site_url(); ?>">
                     Privacy Policy
                 </a>
@@ -38,7 +38,7 @@
                 </a>
             </div>
             <div class="d-none d-lg-flex flex-column">
-                <h5>Resources</h5>
+                <h5 class="fw-bold">Resources</h5>
                 <a class="text-secondary hover-accent" href="<?php echo site_url(); ?>">
                     Nutrition
                 </a>
@@ -53,7 +53,7 @@
                 </a>
             </div>
             <div class="d-none d-lg-flex flex-column">
-                <h5>Company</h5>
+                <h5 class="fw-bold">Company</h5>
                 <a class="text-secondary hover-accent" href="<?php echo site_url(); ?>">
                     About Us
                 </a>
@@ -68,7 +68,7 @@
                 </a>
             </div>
             <div class="d-none d-lg-flex flex-column">
-                <h5>Social Media</h5>
+                <h5 class="fw-bold">Social Media</h5>
                 <a class="text-secondary hover-accent" href="<?php echo site_url(); ?>">
                     Instagram
                 </a>
@@ -85,7 +85,7 @@
             <div class="d-flex flex-column gap-3 d-lg-none" aria-hidden="true">
                 <div class="d-flex flex-column flex-md-row justify-content-md-between gap-3">
                     <div class="w-100 d-flex flex-column">
-                        <h5>More Info</h5>
+                        <h5 class="fw-bold">More Info</h5>
                         <a class="text-secondary hover-accent" href="<?php echo site_url(); ?>">
                             Privacy Policy
                         </a>
@@ -100,7 +100,7 @@
                         </a>
                     </div>
                     <div class="w-100 d-flex flex-column">
-                        <h5>Resources</h5>
+                        <h5 class="fw-bold">Resources</h5>
                         <a class="text-secondary hover-accent" href="<?php echo site_url(); ?>">
                             Nutrition
                         </a>
@@ -117,7 +117,7 @@
                 </div>
                 <div class="d-flex flex-column flex-md-row justify-content-md-between gap-3">
                     <div class="w-100 d-flex flex-column">
-                        <h5>Company</h5>
+                        <h5 class="fw-bold">Company</h5>
                         <a class="text-secondary hover-accent" href="<?php echo site_url(); ?>">
                             About Us
                         </a>
@@ -132,7 +132,7 @@
                         </a>
                     </div>
                     <div class="w-100 d-flex flex-column">
-                        <h5>Social Media</h5>
+                        <h5 class="fw-bold">Social Media</h5>
                         <a class="text-secondary hover-accent" href="<?php echo site_url(); ?>">
                             Instagram
                         </a>

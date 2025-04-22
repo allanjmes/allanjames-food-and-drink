@@ -1,4 +1,3 @@
-@import 'fonts';
 @import 'theme-colors';
 
 // IMPORT BOOTSTRAP OVERRIDE COLORS - REQUIRED: before Bootstrap SCSS
@@ -8,6 +7,11 @@
 @import "bootstrap/scss/bootstrap";
 
 @import 'core';
+@import 'fonts';
+
+// IMPORT PAGE STYLES 
 @import 'home';
+
+// OTHERS
 @import 'hover-animations';
 @import 'infinite-scroll-sticker';
