@@ -1,20 +1,20 @@
 <header class="bg-custom-yellow m-3" style="border: 2px; border-radius: 10px;">
     <!-- LARGE DEVICE NAV -->
-    <div class="mx-5 d-none d-lg-flex justify-content-between align-items-center">
-        <nav class="d-flex gap-5">
+    <div class="mx-5 d-none d-lg-flex">
+        <nav class="col-4 d-flex justify-content-start align-items-center gap-5">
             <a href="<?php echo site_url(); ?>">Home</a>
-            <a href="<?php echo site_url(); ?>">About</a>
-            <a href="<?php echo site_url() . '/recipe'; ?>">Recipe</a>
+            <a href="<?php echo site_url(); ?>">Development</a>
+            <a href="<?php echo site_url(); ?>">Web Design</a>
         </nav>
-        <div class="d-flex align-items-center">
+        <div class="col-4 d-flex justify-content-center align-items-center mb-2">
             <a href="<?php echo site_url(); ?>">
                 <h1 class="display-3 fw-bold">Logo</h1>
             </a>
         </div>
-        <nav class="d-flex gap-5 align-items-center">
-            <a href="<?php echo site_url(); ?>">Home</a>
-            <a href="<?php echo site_url(); ?>">About</a>
+        <nav class="col-4 d-flex justify-content-end align-items-center gap-5">
             <a href="<?php echo site_url() . '/recipe'; ?>">Recipe</a>
+            <a href="<?php echo site_url(); ?>">Category</a>
+            <a href="<?php echo site_url(); ?>">About</a>
             <a type="button" class="btn-outline-primary" href="<?php echo site_url() . '/recipe'; ?>">Learn More</a>
         </nav>
     </div>
