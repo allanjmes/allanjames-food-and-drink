@@ -57,7 +57,7 @@
                             style="height: 50px; width: 50px"
                             alt=""
                         >
-                        <h1>
+                        <h1 class="fw-bold">
                             High in Richness
                         </h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque rem inventore officia, autem ratione ea accusantium. Doloribus quia praesentium nam.</p>
@@ -68,7 +68,7 @@
                             style="height: 50px; width: 50px"
                             alt=""
                         >
-                        <h1>
+                        <h1 class="fw-bold">
                             Healthy Flavors
                         </h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque rem inventore officia, autem ratione ea accusantium. Doloribus quia praesentium nam.</p>
@@ -87,7 +87,7 @@
                             style="height: 50px; width: 50px"
                             alt=""
                         >
-                        <h1>
+                        <h1 class="fw-bold">
                             Love in Every Bite
                         </h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque rem inventore officia, autem ratione ea accusantium. Doloribus quia praesentium nam.</p>
@@ -98,8 +98,8 @@
                             style="height: 50px; width: 50px"
                             alt=""
                         >
-                        <h1>
-                            Un-refined Goodness
+                        <h1 class="fw-bold">
+                            Refined Goodness
                         </h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque rem inventore officia, autem ratione ea accusantium. Doloribus quia praesentium nam.</p>
                     </div>
@@ -113,7 +113,7 @@
                             style="height: 50px; width: 50px"
                             alt=""
                         >
-                        <h2>
+                        <h2 class="fw-bold">
                             High in Richness
                         </h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque rem inventore officia, autem ratione ea accusantium. Doloribus quia praesentium nam.</p>
@@ -124,7 +124,7 @@
                             style="height: 50px; width: 50px"
                             alt=""
                         >
-                        <h2>
+                        <h2 class="fw-bold">
                             Healthy Flavors
                         </h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque rem inventore officia, autem ratione ea accusantium. Doloribus quia praesentium nam.</p>
@@ -137,7 +137,7 @@
                             style="height: 50px; width: 50px"
                             alt=""
                         >
-                        <h2>
+                        <h2 class="fw-bold">
                             Love in Every Bite
                         </h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque rem inventore officia, autem ratione ea accusantium. Doloribus quia praesentium nam.</p>
@@ -148,8 +148,8 @@
                             style="height: 50px; width: 50px"
                             alt=""
                         >
-                        <h2>
-                            Un-refined Goodness
+                        <h2 class="fw-bold">
+                            Refined Goodness
                         </h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque rem inventore officia, autem ratione ea accusantium. Doloribus quia praesentium nam.</p>
                     </div>
@@ -174,7 +174,7 @@
                             width="90%"
                             alt=""
                         >
-                        <h3 class="py-5 text-center text-secondary">Title</h3>
+                        <h3 class="py-5 text-center text-secondary fw-bold">Title</h3>
                     </li>
                     <li class="glide__slide">
                         <img
@@ -183,7 +183,7 @@
                             width="90%"
                             alt=""
                         >
-                        <h3 class="py-5 text-center text-secondary">Title</h3>
+                        <h3 class="py-5 text-center text-secondary fw-bold">Title</h3>
                     </li>
                     <li class="glide__slide">
                         <img
@@ -192,7 +192,7 @@
                             width="90%"
                             alt=""
                         >
-                        <h3 class="py-5 text-center text-secondary">Title</h3>
+                        <h3 class="py-5 text-center text-secondary fw-bold">Title</h3>
                     </li>
                     <li class="glide__slide">
                         <img
@@ -201,7 +201,7 @@
                             width="90%"
                             alt=""
                         >
-                        <h3 class="py-5 text-center text-secondary">Title</h3>
+                        <h3 class="py-5 text-center text-secondary fw-bold">Title</h3>
                     </li>
                     <li class="glide__slide">
                         <img
@@ -210,7 +210,7 @@
                             width="90%"
                             alt=""
                         >
-                        <h3 class="py-5 text-center text-secondary">Title</h3>
+                        <h3 class="py-5 text-center text-secondary fw-bold">Title</h3>
                     </li>
                     <li class="glide__slide">
                         <img
@@ -219,7 +219,7 @@
                             width="90%"
                             alt=""
                         >
-                        <h3 class="py-5 text-center text-secondary">Title</h3>
+                        <h3 class="py-5 text-center text-secondary fw-bold">Title</h3>
                     </li>
                     <li class="glide__slide">
                         <img
@@ -228,7 +228,7 @@
                             width="90%"
                             alt=""
                         >
-                        <h3 class="py-5 text-center text-secondary">Title</h3>
+                        <h3 class="py-5 text-center text-secondary fw-bold">Title</h3>
                     </li>
                     <li class="glide__slide">
                         <img
@@ -237,7 +237,7 @@
                             width="90%"
                             alt=""
                         >
-                        <h3 class="py-5 text-center text-secondary">Title</h3>
+                        <h3 class="py-5 text-center text-secondary fw-bold">Title</h3>
                     </li>
                     <li class="glide__slide">
                         <img
@@ -246,7 +246,7 @@
                             width="90%"
                             alt=""
                         >
-                        <h3 class="py-5 text-center text-secondary">Title</h3>
+                        <h3 class="py-5 text-center text-secondary fw-bold">Title</h3>
                     </li>
                     <li class="glide__slide">
                         <img
@@ -255,7 +255,7 @@
                             width="90%"
                             alt=""
                         >
-                        <h3 class="py-5 text-center text-secondary">Title</h3>
+                        <h3 class="py-5 text-center text-secondary fw-bold">Title</h3>
                     </li>
                     <li class="glide__slide">
                         <img
@@ -264,7 +264,7 @@
                             width="90%"
                             alt=""
                         >
-                        <h3 class="py-5 text-center text-secondary">Title</h3>
+                        <h3 class="py-5 text-center text-secondary fw-bold">Title</h3>
                     </li>
                     <li class="glide__slide">
                         <img
@@ -273,7 +273,7 @@
                             width="90%"
                             alt=""
                         >
-                        <h3 class="py-5 text-center text-secondary">Title</h3>
+                        <h3 class="py-5 text-center text-secondary fw-bold">Title</h3>
                     </li>
                 </ul>
             </div>
@@ -283,72 +283,72 @@
 
 <section class="bg-custom-blue py-3">
     <div class="infinite-sticker text-custom-dark-blue">
-        <ul>
+        <ul class="">
             <li>
                 <span></span>
-                <h1>TASTE GOOD</h1>
+                <h1 class="fw-bold">TASTE GOOD</h1>
             </li>
             <li>
                 <span></span>
-                <h1>NATURE FRESH</h1>
+                <h1 class="fw-bold">NATURE FRESH</h1>
             </li>
             <li>
                 <span></span>
-                <h1>HEALTHY SNACKS</h1>
+                <h1 class="fw-bold">HEALTHY SNACKS</h1>
             </li>
             <li>
                 <span></span>
-                <h1>RICH ANTIOXIDENT</h1>
+                <h1 class="fw-bold">RICH ANTIOXIDENT</h1>
             </li>
             <li>
                 <span></span>
-                <h1>NO PRESERVATIVES</h1>
+                <h1 class="fw-bold">NO PRESERVATIVES</h1>
             </li>
             <li>
                 <span></span>
-                <h1>HEALTHY FOOD</h1>
+                <h1 class="fw-bold">HEALTHY FOOD</h1>
             </li>
             <li>
                 <span></span>
-                <h1>NO ADDITIVES</h1>
+                <h1 class="fw-bold">NO ADDITIVES</h1>
             </li>
             <li>
                 <span></span>
-                <h1>PURELY NATURAL</h1>
+                <h1 class="fw-bold">PURELY NATURAL</h1>
             </li>
         </ul>
         <ul aria-hidden="true">
             <li>
                 <span></span>
-                <h1>TASTE GOOD</h1>
+                <h1 class="fw-bold">TASTE GOOD</h1>
             </li>
             <li>
                 <span></span>
-                <h1>NATURE FRESH</h1>
+                <h1 class="fw-bold">NATURE FRESH</h1>
             </li>
             <li>
                 <span></span>
-                <h1>HEALTHY SNACKS</h1>
+                <h1 class="fw-bold">HEALTHY SNACKS</h1>
             </li>
             <li>
                 <span></span>
-                <h1>RICH ANTIOXIDENT</h1>
+                <h1 class="fw-bold">RICH ANTIOXIDENT</h1>
             </li>
             <li>
                 <span></span>
-                <h1>NO PRESERVATIVES</h1>
+                <h1 class="fw-bold">NO PRESERVATIVES</h1>
             </li>
             <li>
                 <span></span>
-                <h1>HEALTHY FOOD</h1>
+                <h1 class="fw-bold">HEALTHY FOOD</h1>
             </li>
             <li>
                 <span></span>
-                <h1>NO ADDITIVES</h1>
+                <h1 class="fw-bold">NO ADDITIVES</h1>
             </li>
             <li>
                 <span></span>
-                <h1>PURELY NATURAL</h1>
+                <h1 class="fw-bold">PURELY NATURAL</h1>
             </li>
         </ul>
     </div>
@@ -375,7 +375,7 @@
                         width="90%"
                         alt=""
                     >
-                    <h3 class="py-5 text-center">Title</h3>
+                    <h3 class="py-5 text-center fw-bold">Title</h3>
                 </li>
                 <li class="glide__slide">
                     <img
@@ -384,7 +384,7 @@
                         width="90%"
                         alt=""
                     >
-                    <h3 class="py-5 text-center">Title</h3>
+                    <h3 class="py-5 text-center fw-bold">Title</h3>
                 </li>
                 <li class="glide__slide">
                     <img
@@ -393,7 +393,7 @@
                         width="90%"
                         alt=""
                     >
-                    <h3 class="py-5 text-center">Title</h3>
+                    <h3 class="py-5 text-center fw-bold">Title</h3>
                 </li>
                 <li class="glide__slide">
                     <img
@@ -402,7 +402,7 @@
                         width="90%"
                         alt=""
                     >
-                    <h3 class="py-5 text-center">Title</h3>
+                    <h3 class="py-5 text-center fw-bold">Title</h3>
                 </li>
                 <li class="glide__slide">
                     <img
@@ -411,7 +411,7 @@
                         width="90%"
                         alt=""
                     >
-                    <h3 class="py-5 text-center">Title</h3>
+                    <h3 class="py-5 text-center fw-bold">Title</h3>
                 </li>
                 <li class="glide__slide">
                     <img
@@ -420,7 +420,7 @@
                         width="90%"
                         alt=""
                     >
-                    <h3 class="py-5 text-center">Title</h3>
+                    <h3 class="py-5 text-center fw-bold">Title</h3>
                 </li>
                 <li class="glide__slide">
                     <img
@@ -429,7 +429,7 @@
                         width="90%"
                         alt=""
                     >
-                    <h3 class="py-5 text-center">Title</h3>
+                    <h3 class="py-5 text-center fw-bold">Title</h3>
                 </li>
                 <li class="glide__slide">
                     <img
@@ -438,7 +438,7 @@
                         width="90%"
                         alt=""
                     >
-                    <h3 class="py-5 text-center">Title</h3>
+                    <h3 class="py-5 text-center fw-bold">Title</h3>
                 </li>
                 <li class="glide__slide">
                     <img
@@ -447,7 +447,7 @@
                         width="90%"
                         alt=""
                     >
-                    <h3 class="py-5 text-center">Title</h3>
+                    <h3 class="py-5 text-center fw-bold">Title</h3>
                 </li>
                 <li class="glide__slide">
                     <img
@@ -456,7 +456,7 @@
                         width="90%"
                         alt=""
                     >
-                    <h3 class="py-5 text-center">Title</h3>
+                    <h3 class="py-5 text-center fw-bold">Title</h3>
                 </li>
                 <li class="glide__slide">
                     <img
@@ -465,7 +465,7 @@
                         width="90%"
                         alt=""
                     >
-                    <h3 class="py-5 text-center">Title</h3>
+                    <h3 class="py-5 text-center fw-bold">Title</h3>
                 </li>
                 <li class="glide__slide">
                     <img
@@ -474,7 +474,7 @@
                         width="90%"
                         alt=""
                     >
-                    <h3 class="py-5 text-center">Title</h3>
+                    <h3 class="py-5 text-center fw-bold">Title</h3>
                 </li>
             </ul>
         </div>
@@ -509,69 +509,69 @@
         <ul>
             <li>
                 <span></span>
-                <h1>TASTE GOOD</h1>
+                <h1 class="fw-bold">TASTE GOOD</h1>
             </li>
             <li>
                 <span></span>
-                <h1>NATURE FRESH</h1>
+                <h1 class="fw-bold">NATURE FRESH</h1>
             </li>
             <li>
                 <span></span>
-                <h1>HEALTHY SNACKS</h1>
+                <h1 class="fw-bold">HEALTHY SNACKS</h1>
             </li>
             <li>
                 <span></span>
-                <h1>RICH ANTIOXIDENT</h1>
+                <h1 class="fw-bold">RICH ANTIOXIDENT</h1>
             </li>
             <li>
                 <span></span>
-                <h1>NO PRESERVATIVES</h1>
+                <h1 class="fw-bold">NO PRESERVATIVES</h1>
             </li>
             <li>
                 <span></span>
-                <h1>HEALTHY FOOD</h1>
+                <h1 class="fw-bold">HEALTHY FOOD</h1>
             </li>
             <li>
                 <span></span>
-                <h1>NO ADDITIVES</h1>
+                <h1 class="fw-bold">NO ADDITIVES</h1>
             </li>
             <li>
                 <span></span>
-                <h1>PURELY NATURAL</h1>
+                <h1 class="fw-bold">PURELY NATURAL</h1>
             </li>
         </ul>
         <ul aria-hidden="true">
             <li>
                 <span></span>
-                <h1>TASTE GOOD</h1>
+                <h1 class="fw-bold">TASTE GOOD</h1>
             </li>
             <li>
                 <span></span>
-                <h1>NATURE FRESH</h1>
+                <h1 class="fw-bold">NATURE FRESH</h1>
             </li>
             <li>
                 <span></span>
-                <h1>HEALTHY SNACKS</h1>
+                <h1 class="fw-bold">HEALTHY SNACKS</h1>
             </li>
             <li>
                 <span></span>
-                <h1>RICH ANTIOXIDENT</h1>
+                <h1 class="fw-bold">RICH ANTIOXIDENT</h1>
             </li>
             <li>
                 <span></span>
-                <h1>NO PRESERVATIVES</h1>
+                <h1 class="fw-bold">NO PRESERVATIVES</h1>
             </li>
             <li>
                 <span></span>
-                <h1>HEALTHY FOOD</h1>
+                <h1 class="fw-bold">HEALTHY FOOD</h1>
             </li>
             <li>
                 <span></span>
-                <h1>NO ADDITIVES</h1>
+                <h1 class="fw-bold">NO ADDITIVES</h1>
             </li>
             <li>
                 <span></span>
-                <h1>PURELY NATURAL</h1>
+                <h1 class="fw-bold">PURELY NATURAL</h1>
             </li>
         </ul>
     </div>
