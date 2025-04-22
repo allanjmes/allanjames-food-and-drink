@@ -51,7 +51,7 @@
     </h1>
 </section>
 
-<section class="bg-tertiary py-5">
+<section class="bg-secondary py-5">
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center">
@@ -123,69 +123,69 @@
         <ul>
             <li>
                 <span></span>
-                <h1>TASTE GOOD</h1>
+                <h1 class="fw-bold">TASTE GOOD</h1>
             </li>
             <li>
                 <span></span>
-                <h1>NATURE FRESH</h1>
+                <h1 class="fw-bold">NATURE FRESH</h1>
             </li>
             <li>
                 <span></span>
-                <h1>HEALTHY SNACKS</h1>
+                <h1 class="fw-bold">HEALTHY SNACKS</h1>
             </li>
             <li>
                 <span></span>
-                <h1>RICH ANTIOXIDENT</h1>
+                <h1 class="fw-bold">RICH ANTIOXIDENT</h1>
             </li>
             <li>
                 <span></span>
-                <h1>NO PRESERVATIVES</h1>
+                <h1 class="fw-bold">NO PRESERVATIVES</h1>
             </li>
             <li>
                 <span></span>
-                <h1>HEALTHY FOOD</h1>
+                <h1 class="fw-bold">HEALTHY FOOD</h1>
             </li>
             <li>
                 <span></span>
-                <h1>NO ADDITIVES</h1>
+                <h1 class="fw-bold">NO ADDITIVES</h1>
             </li>
             <li>
                 <span></span>
-                <h1>PURELY NATURAL</h1>
+                <h1 class="fw-bold">PURELY NATURAL</h1>
             </li>
         </ul>
         <ul aria-hidden="true">
             <li>
                 <span></span>
-                <h1>TASTE GOOD</h1>
+                <h1 class="fw-bold">TASTE GOOD</h1>
             </li>
             <li>
                 <span></span>
-                <h1>NATURE FRESH</h1>
+                <h1 class="fw-bold">NATURE FRESH</h1>
             </li>
             <li>
                 <span></span>
-                <h1>HEALTHY SNACKS</h1>
+                <h1 class="fw-bold">HEALTHY SNACKS</h1>
             </li>
             <li>
                 <span></span>
-                <h1>RICH ANTIOXIDENT</h1>
+                <h1 class="fw-bold">RICH ANTIOXIDENT</h1>
             </li>
             <li>
                 <span></span>
-                <h1>NO PRESERVATIVES</h1>
+                <h1 class="fw-bold">NO PRESERVATIVES</h1>
             </li>
             <li>
                 <span></span>
-                <h1>HEALTHY FOOD</h1>
+                <h1 class="fw-bold">HEALTHY FOOD</h1>
             </li>
             <li>
                 <span></span>
-                <h1>NO ADDITIVES</h1>
+                <h1 class="fw-bold">NO ADDITIVES</h1>
             </li>
             <li>
                 <span></span>
-                <h1>PURELY NATURAL</h1>
+                <h1 class="fw-bold">PURELY NATURAL</h1>
             </li>
         </ul>
     </div>
@@ -219,69 +219,69 @@
         <ul>
             <li>
                 <span></span>
-                <h1>TASTE GOOD</h1>
+                <h1 class="fw-bold">TASTE GOOD</h1>
             </li>
             <li>
                 <span></span>
-                <h1>NATURE FRESH</h1>
+                <h1 class="fw-bold">NATURE FRESH</h1>
             </li>
             <li>
                 <span></span>
-                <h1>HEALTHY SNACKS</h1>
+                <h1 class="fw-bold">HEALTHY SNACKS</h1>
             </li>
             <li>
                 <span></span>
-                <h1>RICH ANTIOXIDENT</h1>
+                <h1 class="fw-bold">RICH ANTIOXIDENT</h1>
             </li>
             <li>
                 <span></span>
-                <h1>NO PRESERVATIVES</h1>
+                <h1 class="fw-bold">NO PRESERVATIVES</h1>
             </li>
             <li>
                 <span></span>
-                <h1>HEALTHY FOOD</h1>
+                <h1 class="fw-bold">HEALTHY FOOD</h1>
             </li>
             <li>
                 <span></span>
-                <h1>NO ADDITIVES</h1>
+                <h1 class="fw-bold">NO ADDITIVES</h1>
             </li>
             <li>
                 <span></span>
-                <h1>PURELY NATURAL</h1>
+                <h1 class="fw-bold">PURELY NATURAL</h1>
             </li>
         </ul>
         <ul aria-hidden="true">
             <li>
                 <span></span>
-                <h1>TASTE GOOD</h1>
+                <h1 class="fw-bold">TASTE GOOD</h1>
             </li>
             <li>
                 <span></span>
-                <h1>NATURE FRESH</h1>
+                <h1 class="fw-bold">NATURE FRESH</h1>
             </li>
             <li>
                 <span></span>
-                <h1>HEALTHY SNACKS</h1>
+                <h1 class="fw-bold">HEALTHY SNACKS</h1>
             </li>
             <li>
                 <span></span>
-                <h1>RICH ANTIOXIDENT</h1>
+                <h1 class="fw-bold">RICH ANTIOXIDENT</h1>
             </li>
             <li>
                 <span></span>
-                <h1>NO PRESERVATIVES</h1>
+                <h1 class="fw-bold">NO PRESERVATIVES</h1>
             </li>
             <li>
                 <span></span>
-                <h1>HEALTHY FOOD</h1>
+                <h1 class="fw-bold">HEALTHY FOOD</h1>
             </li>
             <li>
                 <span></span>
-                <h1>NO ADDITIVES</h1>
+                <h1 class="fw-bold">NO ADDITIVES</h1>
             </li>
             <li>
                 <span></span>
-                <h1>PURELY NATURAL</h1>
+                <h1 class="fw-bold">PURELY NATURAL</h1>
             </li>
         </ul>
     </div>
