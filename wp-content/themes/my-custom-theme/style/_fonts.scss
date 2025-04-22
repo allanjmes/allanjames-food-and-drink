@@ -1,0 +1,122 @@
+// FONTS
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,900&display=swap');
+
+// FONT CLASSES
+.font-poppins {
+    font-family: "Poppins", sans-serif;
+}
+
+.font-metro {
+font-family: "Metrophobic", sans-serif;
+}
+
+.font-playfair {
+font-family: "Playfair Display", serif;
+font-optical-sizing: auto;
+font-weight: 900;
+font-style: italic;
+}
+
+// FONT WEIGHT CLASSES
+.fw-thin {
+    font-family: inherit;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.fw-extralight {
+    font-family: inherit;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.fw-light {
+    font-family: inherit;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.fw-medium {
+    font-family: inherit;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.fw-semibold {
+    font-family: inherit;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.fw-bold {
+    font-family: inherit;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.fw-extrabold {
+    font-family: inherit;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.fw-extra-extrabold {
+    font-family: inherit;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.fw-thin-italic {
+    font-family: inherit;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.fw-extralight-italic {
+    font-family: inherit;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.fw-light-italic {
+    font-family: inherit;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.fw-regular-italic {
+    font-family: inherit;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.fw-medium-italic {
+    font-family: inherit;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.fw-semibold-italic {
+    font-family: inherit;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.fw-bold-italic {
+    font-family: inherit;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.fw-extrabold-italic {
+    font-family: inherit;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.fw-black-italic {
+    font-family: inherit;
+    font-weight: 900;
+    font-style: italic;
+}
