@@ -17,68 +17,134 @@
         <hr>
         <div class="d-flex flex-column flex-lg-row justify-content-between gap-3">
             <div>
-                <h1 class="display-2 fw-extrabold text-accent">Logo</h1>
+                <a href="<?php echo site_url(); ?>">
+                    <h1 class="display-2 fw-extrabold text-accent">Logo</h1>
+                </a>
                 <p>We provide the best food for you.</p>
             </div>
-            <div class="d-none d-lg-block">
+            <div class="d-none d-lg-flex flex-column">
                 <h5>More Info</h5>
-                <li>Privacy Policy</li>
-                <li>Terms & Conditions</li>
-                <li>Recipe Information</li>
-                <li>Gift Cards</li>
+                <a class="text-secondary hover-accent" href="<?php echo site_url(); ?>">
+                    Privacy Policy
+                </a>
+                <a class="text-secondary hover-accent" href="<?php echo site_url(); ?>">
+                    Terms & Conditions
+                </a>
+                <a class="text-secondary hover-accent" href="<?php echo site_url(); ?>">
+                    Recipe Information
+                </a>
+                <a class="text-secondary hover-accent" href="<?php echo site_url(); ?>">
+                    Gift Cards
+                </a>
             </div>
-            <div class="d-none d-lg-block">
+            <div class="d-none d-lg-flex flex-column">
                 <h5>Resources</h5>
-                <li>Nutrition</li>
-                <li>Ingredients</li>
-                <li>Recipe</li>
-                <li>Assortment</li>
+                <a class="text-secondary hover-accent" href="<?php echo site_url(); ?>">
+                    Nutrition
+                </a>
+                <a class="text-secondary hover-accent" href="<?php echo site_url(); ?>">
+                    Ingredients
+                </a>
+                <a class="text-secondary hover-accent" href="<?php echo site_url(); ?>">
+                    Recipe
+                </a>
+                <a class="text-secondary hover-accent" href="<?php echo site_url(); ?>">
+                    Assortment
+                </a>
             </div>
-            <div class="d-none d-lg-block">
+            <div class="d-none d-lg-flex flex-column">
                 <h5>Company</h5>
-                <li>About Us</li>
-                <li>Career & Training</li>
-                <li>Press & Media</li>
-                <li>Our Story</li>
+                <a class="text-secondary hover-accent" href="<?php echo site_url(); ?>">
+                    About Us
+                </a>
+                <a class="text-secondary hover-accent" href="<?php echo site_url(); ?>">
+                    Career & Training
+                </a>
+                <a class="text-secondary hover-accent" href="<?php echo site_url(); ?>">
+                    Press & Media
+                </a>
+                <a class="text-secondary hover-accent" href="<?php echo site_url(); ?>">
+                    Our Story
+                </a>
             </div>
-            <div class="d-none d-lg-block">
+            <div class="d-none d-lg-flex flex-column">
                 <h5>Social Media</h5>
-                <li>Instagram</li>
-                <li>Tiktok</li>
-                <li>Facebook</li>
-                <li>Youtube</li>
+                <a class="text-secondary hover-accent" href="<?php echo site_url(); ?>">
+                    Instagram
+                </a>
+                <a class="text-secondary hover-accent" href="<?php echo site_url(); ?>">
+                    Tiktok
+                </a>
+                <a class="text-secondary hover-accent" href="<?php echo site_url(); ?>">
+                    Facebook
+                </a>
+                <a class="text-secondary hover-accent" href="<?php echo site_url(); ?>">
+                    Youtube
+                </a>
             </div>
             <div class="d-flex flex-column gap-3 d-lg-none" aria-hidden="true">
                 <div class="d-flex flex-column flex-md-row justify-content-md-between gap-3">
-                    <div class="w-100">
+                    <div class="w-100 d-flex flex-column">
                         <h5>More Info</h5>
-                        <li>Privacy Policy</li>
-                        <li>Terms & Conditions</li>
-                        <li>Recipe Information</li>
-                        <li>Gift Cards</li>
+                        <a class="text-secondary hover-accent" href="<?php echo site_url(); ?>">
+                            Privacy Policy
+                        </a>
+                        <a class="text-secondary hover-accent" href="<?php echo site_url(); ?>">
+                            Terms & Conditions
+                        </a>
+                        <a class="text-secondary hover-accent" href="<?php echo site_url(); ?>">
+                            Recipe Information
+                        </a>
+                        <a class="text-secondary hover-accent" href="<?php echo site_url(); ?>">
+                            Gift Cards
+                        </a>
                     </div>
-                    <div class="w-100">
+                    <div class="w-100 d-flex flex-column">
                         <h5>Resources</h5>
-                        <li>Nutrition</li>
-                        <li>Ingredients</li>
-                        <li>Recipe</li>
-                        <li>Assortment</li>
+                        <a class="text-secondary hover-accent" href="<?php echo site_url(); ?>">
+                            Nutrition
+                        </a>
+                        <a class="text-secondary hover-accent" href="<?php echo site_url(); ?>">
+                            Ingredients
+                        </a>
+                        <a class="text-secondary hover-accent" href="<?php echo site_url(); ?>">
+                            Recipe
+                        </a>
+                        <a class="text-secondary hover-accent" href="<?php echo site_url(); ?>">
+                            Assortment
+                        </a>
                     </div>
                 </div>
                 <div class="d-flex flex-column flex-md-row justify-content-md-between gap-3">
-                    <div class="w-100">
+                    <div class="w-100 d-flex flex-column">
                         <h5>Company</h5>
-                        <li>About Us</li>
-                        <li>Career & Training</li>
-                        <li>Press & Media</li>
-                        <li>Our Story</li>
+                        <a class="text-secondary hover-accent" href="<?php echo site_url(); ?>">
+                            About Us
+                        </a>
+                        <a class="text-secondary hover-accent" href="<?php echo site_url(); ?>">
+                            Career & Training
+                        </a>
+                        <a class="text-secondary hover-accent" href="<?php echo site_url(); ?>">
+                            Press & Media
+                        </a>
+                        <a class="text-secondary hover-accent" href="<?php echo site_url(); ?>">
+                            Our Story
+                        </a>
                     </div>
-                    <div class="w-100">
+                    <div class="w-100 d-flex flex-column">
                         <h5>Social Media</h5>
-                        <li>Instagram</li>
-                        <li>Tiktok</li>
-                        <li>Facebook</li>
-                        <li>Youtube</li>
+                        <a class="text-secondary hover-accent" href="<?php echo site_url(); ?>">
+                            Instagram
+                        </a>
+                        <a class="text-secondary hover-accent" href="<?php echo site_url(); ?>">
+                            Tiktok
+                        </a>
+                        <a class="text-secondary hover-accent" href="<?php echo site_url(); ?>">
+                            Facebook
+                        </a>
+                        <a class="text-secondary hover-accent" href="<?php echo site_url(); ?>">
+                            Youtube
+                        </a>
                     </div>
                 </div>
             </div>
