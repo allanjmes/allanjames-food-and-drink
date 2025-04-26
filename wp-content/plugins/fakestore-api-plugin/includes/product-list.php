@@ -32,7 +32,6 @@ function fsapi_display_products_cards() {
     </div>
 
     <?php
-    return;
 }
 add_shortcode('fakestore_product_cards', 'fsapi_display_products_cards');
 
