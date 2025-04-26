@@ -11,6 +11,8 @@ function fsapi_render_single_product_page($id) {
     if (empty($product)) {
         wp_die('Product not found');
     }
+
+    get_header();
     ?>
 
     <div class="fsapi-single-product" style="max-width:800px; margin:40px auto;">
@@ -22,6 +24,7 @@ function fsapi_render_single_product_page($id) {
     </div>
 
     <?php
+    get_footer();
 }
 
 ?>
