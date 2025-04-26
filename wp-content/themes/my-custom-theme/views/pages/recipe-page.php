@@ -40,7 +40,7 @@
                                         <div class="card-body h-100 d-flex flex-column justify-content-between">
                                             <h5 class="card-title text-primary"><?php echo get_the_title(); ?></h5>
                                             <p class="card-text text-black pb-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet aperiam fugit accusantium corporis ullam tempore fugiat ea praesentium assumenda tenetur?</p>
-                                            <a href="<?php the_permalink(); ?>" class="btn btn-primary text-white">Learn More</a>
+                                            <a href="<?php the_permalink(); ?>" class="btn-primary text-white">Learn More</a>
                                         </div>
                                     </div>
                                 </a>
