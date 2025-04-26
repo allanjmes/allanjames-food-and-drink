@@ -1,0 +1,1 @@
+<?php echo do_shortcode('[fakestore_product_cards]'); ?>
