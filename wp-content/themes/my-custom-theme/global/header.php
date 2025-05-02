@@ -4,8 +4,8 @@
         <nav class="col-4 d-flex justify-content-start align-items-center gap-5">
             <a href="<?php echo site_url(); ?>">Home</a>
             <a href="<?php echo site_url() . '/recipe'; ?>">Recipe</a>
-            <a href="<?php echo site_url() . '/recipe-category'; ?>">Category</a>
-            <a href="<?php echo site_url() . '/store'; ?>">Store</a>
+            <a href="<?php echo site_url() . '/recipe-category'; ?>">Recipe Category</a>
+            <a href="<?php echo site_url() . '/store'; ?>">Store APIs</a>
         </nav>
         <div class="col-4 d-flex justify-content-center align-items-center mb-2">
             <a href="<?php echo site_url(); ?>">
@@ -47,8 +47,8 @@
             <div class="d-flex flex-column gap-3 p-3">
                 <a href="<?php echo site_url(); ?>">Home</a>
                 <a href="<?php echo site_url() . '/recipe'; ?>">Recipe</a>
-                <a href="<?php echo site_url() . '/recipe-category'; ?>">Category</a>
-                <a href="<?php echo site_url() . '/store'; ?>">Store</a>
+                <a href="<?php echo site_url() . '/recipe-category'; ?>">Recipe Category</a>
+                <a href="<?php echo site_url() . '/store'; ?>">Store APIs</a>
                 <a href="<?php echo site_url() . '/web-design'; ?>">Web Design</a>
                 <a href="<?php echo site_url() . '/development'; ?>">Development</a>
                 <a href="<?php echo site_url() . '/contact-me'; ?>">Contact Me</a>
