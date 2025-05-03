@@ -198,114 +198,34 @@
         <div class="glide py-5" id="food-recipe-carousel">
             <div class="glide__track" data-glide-el="track">
                 <ul class="glide__slides">
-                    <li class="glide__slide">
-                        <img
-                            src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
-                            height="150px"
-                            width="90%"
-                            alt=""
-                        >
-                        <h3 class="py-5 text-center text-secondary fw-bold">Title</h3>
-                    </li>
-                    <li class="glide__slide">
-                        <img
-                            src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
-                            height="150px"
-                            width="90%"
-                            alt=""
-                        >
-                        <h3 class="py-5 text-center text-secondary fw-bold">Title</h3>
-                    </li>
-                    <li class="glide__slide">
-                        <img
-                            src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
-                            height="150px"
-                            width="90%"
-                            alt=""
-                        >
-                        <h3 class="py-5 text-center text-secondary fw-bold">Title</h3>
-                    </li>
-                    <li class="glide__slide">
-                        <img
-                            src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
-                            height="150px"
-                            width="90%"
-                            alt=""
-                        >
-                        <h3 class="py-5 text-center text-secondary fw-bold">Title</h3>
-                    </li>
-                    <li class="glide__slide">
-                        <img
-                            src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
-                            height="150px"
-                            width="90%"
-                            alt=""
-                        >
-                        <h3 class="py-5 text-center text-secondary fw-bold">Title</h3>
-                    </li>
-                    <li class="glide__slide">
-                        <img
-                            src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
-                            height="150px"
-                            width="90%"
-                            alt=""
-                        >
-                        <h3 class="py-5 text-center text-secondary fw-bold">Title</h3>
-                    </li>
-                    <li class="glide__slide">
-                        <img
-                            src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
-                            height="150px"
-                            width="90%"
-                            alt=""
-                        >
-                        <h3 class="py-5 text-center text-secondary fw-bold">Title</h3>
-                    </li>
-                    <li class="glide__slide">
-                        <img
-                            src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
-                            height="150px"
-                            width="90%"
-                            alt=""
-                        >
-                        <h3 class="py-5 text-center text-secondary fw-bold">Title</h3>
-                    </li>
-                    <li class="glide__slide">
-                        <img
-                            src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
-                            height="150px"
-                            width="90%"
-                            alt=""
-                        >
-                        <h3 class="py-5 text-center text-secondary fw-bold">Title</h3>
-                    </li>
-                    <li class="glide__slide">
-                        <img
-                            src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
-                            height="150px"
-                            width="90%"
-                            alt=""
-                        >
-                        <h3 class="py-5 text-center text-secondary fw-bold">Title</h3>
-                    </li>
-                    <li class="glide__slide">
-                        <img
-                            src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
-                            height="150px"
-                            width="90%"
-                            alt=""
-                        >
-                        <h3 class="py-5 text-center text-secondary fw-bold">Title</h3>
-                    </li>
-                    <li class="glide__slide">
-                        <img
-                            src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
-                            height="150px"
-                            width="90%"
-                            alt=""
-                        >
-                        <h3 class="py-5 text-center text-secondary fw-bold">Title</h3>
-                    </li>
+                    <?php
+                        $args = [
+                            'post_type' => 'recipe',
+                            'post_status' => 'publish'
+                        ];
+            
+                        $query = new WP_Query($args);
+
+                        while ($query->have_posts()) :
+                            $query->the_post();
+                            $image_id = get_post_meta(get_the_ID(), 'featured_image', true);
+                            $image = wp_get_attachment_image_url($image_id, 'full');
+                            ?>
+                                <li class="glide__slide mx-3">
+                                    <a href="<?php the_permalink(); ?>" >
+                                        <img
+                                            src="<?php echo $image; ?>"
+                                            height="200px"
+                                            width="100%"
+                                            alt=""
+                                        >
+                                        <h3 class="py-5 text-center text-secondary fw-bold"><?php echo get_the_title(); ?></h3>
+                                    </a>
+                                </li>
+                            <?php
+                        endwhile;
+                        wp_reset_postdata();
+                    ?>
                 </ul>
             </div>
         </div>
@@ -399,114 +319,36 @@
     <div class="glide my-5 pt-5" id="food-recipe-carousel-2">
         <div class="glide__track" data-glide-el="track">
             <ul class="glide__slides">
-                <li class="glide__slide">
-                    <img
-                        src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
-                        height="150px"
-                        width="90%"
-                        alt=""
-                    >
-                    <h3 class="py-5 text-center fw-bold">Title</h3>
-                </li>
-                <li class="glide__slide">
-                    <img
-                        src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
-                        height="150px"
-                        width="90%"
-                        alt=""
-                    >
-                    <h3 class="py-5 text-center fw-bold">Title</h3>
-                </li>
-                <li class="glide__slide">
-                    <img
-                        src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
-                        height="150px"
-                        width="90%"
-                        alt=""
-                    >
-                    <h3 class="py-5 text-center fw-bold">Title</h3>
-                </li>
-                <li class="glide__slide">
-                    <img
-                        src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
-                        height="150px"
-                        width="90%"
-                        alt=""
-                    >
-                    <h3 class="py-5 text-center fw-bold">Title</h3>
-                </li>
-                <li class="glide__slide">
-                    <img
-                        src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
-                        height="150px"
-                        width="90%"
-                        alt=""
-                    >
-                    <h3 class="py-5 text-center fw-bold">Title</h3>
-                </li>
-                <li class="glide__slide">
-                    <img
-                        src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
-                        height="150px"
-                        width="90%"
-                        alt=""
-                    >
-                    <h3 class="py-5 text-center fw-bold">Title</h3>
-                </li>
-                <li class="glide__slide">
-                    <img
-                        src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
-                        height="150px"
-                        width="90%"
-                        alt=""
-                    >
-                    <h3 class="py-5 text-center fw-bold">Title</h3>
-                </li>
-                <li class="glide__slide">
-                    <img
-                        src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
-                        height="150px"
-                        width="90%"
-                        alt=""
-                    >
-                    <h3 class="py-5 text-center fw-bold">Title</h3>
-                </li>
-                <li class="glide__slide">
-                    <img
-                        src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
-                        height="150px"
-                        width="90%"
-                        alt=""
-                    >
-                    <h3 class="py-5 text-center fw-bold">Title</h3>
-                </li>
-                <li class="glide__slide">
-                    <img
-                        src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
-                        height="150px"
-                        width="90%"
-                        alt=""
-                    >
-                    <h3 class="py-5 text-center fw-bold">Title</h3>
-                </li>
-                <li class="glide__slide">
-                    <img
-                        src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
-                        height="150px"
-                        width="90%"
-                        alt=""
-                    >
-                    <h3 class="py-5 text-center fw-bold">Title</h3>
-                </li>
-                <li class="glide__slide">
-                    <img
-                        src="<?php echo get_template_directory_uri(); ?>/assets/home/tropical-leaves.jpg"
-                        height="150px"
-                        width="90%"
-                        alt=""
-                    >
-                    <h3 class="py-5 text-center fw-bold">Title</h3>
-                </li>
+                <?php
+                    $terms = get_terms([
+                        'taxonomy' => 'recipe_category', // Name of the taxonomy
+                        'orderby'  => 'name',            // Sort terms alphabetically
+                        'hide_empty' => false            // Show all terms even if they don't have posts
+                    ]);
+        
+                    if (!empty($terms) && !is_wp_error($terms)) {
+                        foreach ($terms as $term) {
+                            $slug = $term->slug;
+                            $term_pod = pods('recipe_category', $term->term_id);
+                            $image_id = $term_pod->field('category_featured_image.ID'); // Get attachment ID
+                            $image = wp_get_attachment_image_url($image_id, 'full');
+                            ?>
+                                <li class="glide__slide mx-3">
+                                    <a href="<?php echo site_url() . '/recipe-category/' . $slug; ?>">
+                                        <img
+                                            src="<?php echo $image; ?>"
+                                            height="200px"
+                                            width="100%"
+                                            alt=""
+                                        >
+                                        <h3 class="py-5 text-center text-primary fw-bold"><?php echo $term->name; ?></h3>
+                                    </a>
+                                </li>
+                            <?php
+                        }
+                    }
+                    wp_reset_postdata();
+                ?>
             </ul>
         </div>
     </div>
