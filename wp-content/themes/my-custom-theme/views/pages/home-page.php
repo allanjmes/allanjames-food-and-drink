@@ -49,7 +49,7 @@
                         <h2 class="d-none d-lg-block d-xl-none display-3 fw-extrabold text-custom-dark-blue" style="width: 95%;" aria-hidden="true">FUEL UP YOUR DAY WITH OUR PLATTER!</h2>
                         <h1 class="d-none d-md-block d-lg-none display-1 fw-extrabold text-custom-dark-blue" style="width: 60%;" aria-hidden="true">FUEL UP YOUR DAY WITH OUR PLATTER!</h1>
                         <h2 class="d-none d-sm-block d-md-none fw-bold display-1 fw-extrabold text-custom-dark-blue" style="width: 70%;" aria-hidden="true">FUEL UP YOUR DAY WITH OUR PLATTER!</h2>
-                        <h2 class="d-sm-none fw-bold display-4 fw-extrabold text-custom-dark-blue" style="width: 80%;" aria-hidden="true">FUEL UP YOUR DAY WITH OUR PLATTER!</h2>
+                        <h2 class="d-sm-none fw-bold display-4 fw-extrabold text-custom-dark-blue" style="width: 85%;" aria-hidden="true">FUEL UP YOUR DAY WITH OUR PLATTER!</h2>
                         <div>
                             <button class="btn-accent text-secondary">
                                 Learn More
