@@ -1,7 +1,7 @@
 <header class="bg-custom-yellow m-3" style="border: 2px; border-radius: 10px;">
     <!-- LARGE DEVICE NAV -->
-    <div class="mx-4 d-none d-lg-flex">
-        <nav class="col-4 d-flex justify-content-start align-items-center gap-3">
+    <div class="mx-3 mx-xl-5 d-none d-lg-flex">
+        <nav class="col-4 d-flex justify-content-start align-items-center gap-3 gap-xl-4 gap-xxl-5">
             <a href="<?php echo site_url(); ?>">Home</a>
             <a href="<?php echo site_url() . '/recipe'; ?>">Recipe</a>
             <a href="<?php echo site_url() . '/recipe-category'; ?>">Category</a>
@@ -12,7 +12,7 @@
                 <h1 class="display-3 fw-bold">Logo</h1>
             </a>
         </div>
-        <nav class="col-4 d-flex justify-content-end align-items-center gap-3">
+        <nav class="col-4 d-flex justify-content-end align-items-center gap-3 gap-xl-4 gap-xxl-5">
             <a href="<?php echo site_url() . '/web-design'; ?>">WebDesign</a>
             <a href="<?php echo site_url() . '/development'; ?>">Development</a>
             <a href="<?php echo site_url() . '/contact-me'; ?>">Contact</a>
@@ -20,7 +20,7 @@
         </nav>
     </div>
     <!-- MOBILE NAV -->
-    <div class="d-lg-none d-flex justify-content-between align-items-center p-2">
+    <div class="mx-3 d-lg-none d-flex justify-content-between align-items-center p-2">
         <div class="d-flex align-items-start">
             <a href="<?php echo site_url(); ?>">
                 <h1 class="display-3 fw-bold">Logo</h1>
@@ -48,8 +48,8 @@
                 <a href="<?php echo site_url(); ?>">Home</a>
                 <a href="<?php echo site_url() . '/recipe'; ?>">Recipe</a>
                 <a href="<?php echo site_url() . '/recipe-category'; ?>">Category</a>
-                <a href="<?php echo site_url() . '/store'; ?>">StoreAPI</a>
-                <a href="<?php echo site_url() . '/web-design'; ?>">WebDesign</a>
+                <a href="<?php echo site_url() . '/store'; ?>">Store APIs</a>
+                <a href="<?php echo site_url() . '/web-design'; ?>">Web Design</a>
                 <a href="<?php echo site_url() . '/development'; ?>">Development</a>
                 <a href="<?php echo site_url() . '/contact-me'; ?>">Contact</a>
                 <a target="_blank" href="https://github.com/allanjmes/food-and-drink">View Code</a>
