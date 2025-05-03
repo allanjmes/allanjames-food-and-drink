@@ -26,7 +26,7 @@
                             $image_id = $term_pod->field('category_featured_image.ID'); // Get attachment ID
                             $image = wp_get_attachment_image_url($image_id, 'full');
                             ?>
-                                <li class="glide__slide mx-3">
+                                <li class="glide__slide">
                                     <a href="<?php echo site_url() . '/recipe-category/' . $slug; ?>">
                                         <img
                                             src="<?php echo $image; ?>"

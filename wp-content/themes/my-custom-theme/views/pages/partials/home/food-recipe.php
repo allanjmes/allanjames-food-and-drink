@@ -19,7 +19,7 @@
                             $image_id = get_post_meta(get_the_ID(), 'featured_image', true);
                             $image = wp_get_attachment_image_url($image_id, 'full');
                             ?>
-                                <li class="glide__slide mx-3">
+                                <li class="glide__slide">
                                     <a href="<?php the_permalink(); ?>" >
                                         <img
                                             src="<?php echo $image; ?>"
