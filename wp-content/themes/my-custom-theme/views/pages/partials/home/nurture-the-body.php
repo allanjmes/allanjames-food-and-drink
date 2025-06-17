@@ -37,8 +37,17 @@
                 </div>
                 <div class="d-flex justify-content-center align-items-center" id="home-farm-picking-img">
                     <img
-                        src="<?php echo get_template_directory_uri(); ?>/assets/home/farm-picking-cropped.webp"
-                        alt=""
+                        src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/farm-picking-female.png.webp"
+                        srcset="
+                            <?php echo site_url(); ?>/wp-content/uploads/2025/06/farm-picking-female-150x150.png.webp 150w,
+                            <?php echo site_url(); ?>/wp-content/uploads/2025/06/farm-picking-female-241x300.png.webp 241w,
+                            <?php echo site_url(); ?>/wp-content/uploads/2025/06/farm-picking-female.png.webp 520w
+                        "
+                        sizes="(max-width: 480px) 150px, (max-width: 768px) 241px, 520px"
+                        width="520"
+                        height="650"
+                        alt="Farm Picking Female"
+                        style="width: 100%; height: auto;"
                     >
                 </div>
                 <div class="d-flex flex-column d-none d-xl-flex justify-content-center align-items-start gap-5">
