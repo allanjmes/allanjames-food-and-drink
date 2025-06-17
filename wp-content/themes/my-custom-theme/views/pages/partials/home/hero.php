@@ -3,10 +3,12 @@
         <div class="d-flex flex-column flex-lg-row justify-content-center gap-3">
             <div class="h-100 d-none d-lg-block" id="home-banner-img">
                 <img
-                    src="<?php echo get_template_directory_uri(); ?>/assets/home/home-banner-2.jpeg"
-                    width="100%"
-                    height="auto"
-                    alt=""
+                    src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/home-banner.jpeg.webp"
+                    width="1920"
+                    height="600"
+                    alt="Vegetables Banner"
+                    fetchpriority="high"
+                    style="width: 100%; height: auto;"
                 >
             </div>
             <div class="h-100 d-flex flex-column justify-content-center align-items-center gap-lg-5" id="home-banner-img">
@@ -15,27 +17,33 @@
                         <div class="d-flex">
                             <div class="" style="">
                                 <img
-                                    src="<?php echo get_template_directory_uri(); ?>/assets/home/home-profile-1.png"
-                                    height="45px"
-                                    width="45px"
+                                    src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/home-profile-1-150x150.jpg.webp"
+                                    height="45"
+                                    width="45"
                                     style="border-radius: 50%;"
-                                    alt="">
+                                    alt="Profile 1"
+                                    fetchpriority="high"
+                                >
                             </div>
                             <div class="" style="margin-left: -10px;">
                                 <img
-                                    src="<?php echo get_template_directory_uri(); ?>/assets/home/home-profile-2.png"
-                                    height="45px"
-                                    width="45px"
+                                    src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/home-profile-2-150x150.jpg.webp"
+                                    height="45"
+                                    width="45"
                                     style="border-radius: 50%;"
-                                    alt="">
+                                    alt="Profile 2"
+                                    fetchpriority="high"
+                                >
                             </div>
                             <div class="" style="margin-left: -10px;">
                                 <img
-                                    src="<?php echo get_template_directory_uri(); ?>/assets/home/home-profile-3.png"
-                                    height="45px"
-                                    width="45px"
+                                    src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/home-profile-3-150x150.jpg.webp"
+                                    height="45"
+                                    width="45"
                                     style="border-radius: 50%;"
-                                    alt="">
+                                    alt="Profile 3"
+                                    fetchpriority="high"
+                                >
                             </div>
                             <div class="" style="margin-left: -10px;">
                                 <div class="bg-secondary d-flex justify-content-center align-items-center" style="height: 45px; width: 45px; border-radius: 50%;">
@@ -57,10 +65,19 @@
                     </div>
                 </div>
                 <img
-                    src="<?php echo get_template_directory_uri(); ?>/assets/home/blue-background-banner.webp"
-                    width="100%"
-                    height="auto"
-                    alt=""
+                    src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/blue-background-banner.png.webp"
+                    srcset="
+                        <?php echo site_url(); ?>/wp-content/uploads/2025/06/blue-background-banner-150x150.png.webp 150w,
+                        <?php echo site_url(); ?>/wp-content/uploads/2025/06/blue-background-banner-300x225.png.webp 300w,
+                        <?php echo site_url(); ?>/wp-content/uploads/2025/06/blue-background-banner-768x576.png.webp 768w,
+                        <?php echo site_url(); ?>/wp-content/uploads/2025/06/blue-background-banner.png.webp 1920w
+                    "
+                    sizes="(max-width: 480px) 300px, (max-width: 768px) 768px, 1920px"
+                    width="1920"
+                    height="600"
+                    alt="Blue Background Banner"
+                    fetchpriority="high"
+                    style="width: 100%; height: auto;"
                 >
             </div>
         </div>
