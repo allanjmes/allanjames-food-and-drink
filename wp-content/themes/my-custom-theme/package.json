@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@glidejs/glide": "^3.7.1",
+    "aos": "^2.3.4",
     "bootstrap": "^5.3.5",
     "simple-parallax-js": "^6.1.1",
     "vanilla-tilt": "^1.8.1"
