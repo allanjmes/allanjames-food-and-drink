@@ -2,10 +2,10 @@
     <div class="container h-100">
         <div class="row h-100 align-items-center">
             <div class="col-12 col-md-6 col-lg-8 mb-4 mb-md-0">
-                <h1 class="display-3 fw-bold text-center text-md-start">FRESH SUPPLIES <span class="text-custom-green">ASSURE</span> SUPERIOR MEALS</h1>
+                <h1 class="display-3 fw-bold text-center text-md-start" data-aos="fade-up" data-aos-duration="1000">FRESH SUPPLIES <span class="text-custom-green">ASSURE</span> SUPERIOR MEALS</h1>
             </div>
             <div class="col-12 col-md-6 col-lg-4">
-                <p class="text-center text-md-start"><strong>Offers essential nutrients</strong> from 30 major ingredients, including avocado, sesame, capcicum, vegetables, and fruits.</p>
+                <p class="text-center text-md-start" data-aos="fade-up" data-aos-duration="2000"><strong>Offers essential nutrients</strong> from 30 major ingredients, including avocado, sesame, capcicum, vegetables, and fruits.</p>
             </div>
         </div>
     </div>

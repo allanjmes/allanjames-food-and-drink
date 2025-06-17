@@ -1,7 +1,7 @@
 <section class="py-5 my-lg-5" style="">
     <div class="d-flex flex-column justify-content-center align-items-center">
         <div>
-            <h1 class="display-3 fw-bold text-center">OUR CUSTOMER <span class="text-accent">LOVES US</span></h1>
+            <h1 class="display-3 fw-bold text-center" data-aos="fade-up" data-aos-duration="1000">OUR CUSTOMER <span class="text-accent">LOVES US</span></h1>
         </div>
         <div class="d-flex justify-content-center align-items-center">
             <div class="py-5 row justify-content-center gap-3 gap-lg-5">

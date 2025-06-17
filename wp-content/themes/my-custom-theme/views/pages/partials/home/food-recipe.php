@@ -1,7 +1,7 @@
 <section class="bg-primary p-5">
     <div class="my-lg-5">
         <div class="py-5">
-            <h1 class="display-1 fw-extrabold text-center text-secondary">Food Recipe</h1>
+            <h1 class="display-1 fw-extrabold text-center text-secondary" data-aos="fade-up" data-aos-duration="1000">Food Recipe</h1>
         </div>
         <div class="glide py-5" id="food-recipe-carousel">
             <div class="glide__track" data-glide-el="track">

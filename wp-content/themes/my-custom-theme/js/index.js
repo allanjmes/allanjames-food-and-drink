@@ -9,3 +9,5 @@ import './vanilla-tilt';
 import './simple-parallax';
 
 import './glide';
+
+import './aos';
